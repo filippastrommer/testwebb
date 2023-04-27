@@ -164,3 +164,38 @@ margin-top: -300px;
 .bilder3 {
     margin-top: -700px;
 }
+
+#bakgrund2 {
+    background-color: #E0E0E0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/img/bibliotek.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.button {
+    border: none;
+    color:#000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 110px;
+  }
+
+  .upptäck {
+    position: relative;
+    z-index: 0;
+    margin-top: -730px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
