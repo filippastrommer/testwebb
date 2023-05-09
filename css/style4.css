@@ -1,0 +1,42 @@
+.slideshow {
+    position: relative;
+  }
+  
+  .slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slideshow img:first-child {
+    opacity: 1;
+  }
+  
+  @keyframes slideshow {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 1;
+    }
+    53% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .slideshow img:nth-child(2) {
+    animation: slideshow 5s linear infinite;
+  }
+
+  .slideshow img {
+    max-width: 50%;
+    height: auto;
+  }

@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #dad7d7;
     margin: 0;
     padding: 0;
 }
@@ -12,31 +12,37 @@ nav {
     position: relative;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.552);
-    height: 50px;
+    height: 20px;
 }
 
 nav img {
     width: 200px;
+    margin-left: -85px;
 }
 
-.meny {
+
+
+
+#header {
     flex: 1;
     text-align: right;
    
 }
 
-.meny ul li {
+#header ul li {
     list-style: none;
+    margin: 30px;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.meny ul li a {
+
+#header ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
 }
-.meny ul li::after {
+#header ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -46,7 +52,7 @@ nav img {
     transition: 0.5s;
 }
 
-.meny ul li:hover::after {
+#header ul li:hover::after {
     width: 100%;
 }
 .video {
@@ -76,17 +82,18 @@ nav img {
 
 #overlay {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 2;
 }
 
-#overlay h1 {
+#overlay h2 {
     font-size: 116px;
     color: #ffffffb1;
     font-family: cursive;
+  
 }
 
 #textinfo {
@@ -188,7 +195,7 @@ margin-top: -300px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-top: 110px;
+    margin-top: 20px;
   }
 
   .upptäck {
@@ -196,6 +203,82 @@ margin-top: -300px;
     z-index: 0;
     margin-top: -730px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: px;
     margin-left: 10px;
 }
+
+
+
+.buttons button {
+    margin: 20px;
+    align-items: center;
+    background-color: #ffffffa3;
+    
+    
+  }
+
+  #overlay h1 {
+    margin-bottom: -40px;
+    font-size: 50px;
+    color: #ffffffb1;;
+
+  }
+
+  .content {
+    display: flex;
+    margin-top: -70px;
+    margin-bottom: 80px;
+   
+   
+  }
+  
+  .image-container {
+    flex: 1;
+  
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 30px;
+    color: rgb(65, 67, 67);
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+
+  .image-container img {
+    width: 1000px;
+    height: auto;
+  }
+
+h3{
+font-size: 70px;
+padding-top: 10px;
+color: #222020;
+text-decoration: underline rgb(255, 255, 255);
+}
+
+.image-container {
+display: flex;
+}
+
+.image-container img {
+flex: 1;
+width: 800px;
+
+}
+
+h4{
+    font-size: 70px;
+    padding-top: 10px;
+    color: #000000;
+    text-decoration: underline rgb(255, 255, 255);
+    }
+
+
+    #bildkronoberg{
+        
+    }

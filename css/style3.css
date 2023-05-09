@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #dad7d7;
+}
+
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/img/teleborgsslott3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header img {
+    width: 200px;
+    margin-left: -85px;
+    
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.552);
+    height: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+
+.meny {
+    flex: 1;
+    text-align: right;
+   
+}
+
+.meny ul li {
+    list-style: none;
+    margin: 30px;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.meny ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.meny ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.meny ul li:hover::after {
+    width: 100%;
+}
+
+
+
+
+#overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+#overlay h2 {
+   
+    font-size: 30px;
+    padding-top: 10px;
+    color: #ffffff;
+    padding-top: -30px;
+  
+}
+
+#overlay h1{
+   
+
+    font-size: 150px;
+    color: #ffffffd8;
+    font-family: cursive;
+   }
+
+.button {
+    border: none;
+    color:#000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 400px;
+  }
+
+ 
+    
+    .content {
+        display: flex;
+        margin-top: 0px;
+        background-color: rgb(222, 219, 210);
+       
+      }
+      
+      .image-container {
+        flex: 1;
+      }
+      
+      .text-container {
+        flex: 1;
+        margin-right: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-align:left;
+        line-height: 30px;
+        color: rgb(65, 67, 67);
+        margin-left: 70px;
+        margin-right: 100px;
+      }
+
+      .image-container img {
+        width: 800px;
+        height: auto;
+      }
+
+  
+
+   .image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    flex: 1;
+    
+  }
+
+
+ 
+
+   
+  
+
+  h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.663);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+
+  #pic-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #pic-container img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 30px;
+  }
+
+
+  #pic-container img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+
+  #pic-container img {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+
+ 

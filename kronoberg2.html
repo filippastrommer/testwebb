@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script2.js"></script>
+    <title>Kronoberg</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="/index.html"><img src="/img/loggakultur2.png" alt="logga"></a>
+          <div class="meny">
+              <ul>
+                  <li><a href="index.html">START</a></li>
+                  <li><a href="/turer.html">TURER</a></li>
+                  <li><a href="#">UPPTÄCK</a></li>
+                  <li><a href="#">OM OSS</a></li>
+              </ul>
+          </div>
+      </nav>
+      </section>
+
+    
+
+        <section class="video">
+            <video autoplay muted id="myVideo">
+                <source src="/videos/skane-16718.mp4" type="video/mp4">
+              </video>
+
+        <div id="overlay">
+          <h1>Kronoberg</h1>
+          <button id="scrollBtn" class="button">Upptäck platser</button>
+          </div>
+
+          <img id="scrollToTopButton" onclick="scrollToTop()" src="/img/unnamed.png" alt="pil">
+
+
+          <section class="select">
+            <img id="attractionMenu" src="img/teleborgsslott3.jpg" alt="hus">
+          
+
+
+          <select id="attractionSelect" onchange="buttons()">
+            <option value="none">Select Attraction Type</option>
+            <option value="Museum">Museum</option>
+            <option value="Slott">Slott</option>
+        </select>
+        <div id="buttons1" style="display:none;">
+            <button>Ikea museum</button>
+            <Button>Knapp två</Button>
+        </div>
+        <div id="buttons2" style="display:none;">
+            <button>Teleborg Slott</button>
+            <Button>Knapp två</Button>
+        </div>
+        <div id="description">
+            <h2>Description:</h2>
+            <p id="descriptionName"></p>
+            <p id="name"></p>
+        </div>
+</section>
+
+        
+            
+
+</body>
+</html>
