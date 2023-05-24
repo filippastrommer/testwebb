@@ -26,7 +26,7 @@
     
 
         <section class="video">
-            <video autoplay muted id="myVideo">
+            <video autoplay muted loop id="myVideo">
                 <source src="/videos/sweden-116101.mp4" type="video/mp4">
               </video>
 
@@ -36,44 +36,30 @@
         
       </div>
       </section>
-      <div id="image-container">
-        <div class="image-item">
-          <img src="img/teleborgsslott3.jpg" alt="Teleborgsslott">
-          <button class="image-btn">Teleborgsslott</button>
-        </div>
-        <div class="image-item">
-          <img src="img/väderkvarn.jpg" alt="Väderkvarn">
-          <button class="image-btn">Väderkvarn</button>
-        </div>
-        <div class="image-item">
-          <img src="img/olandsbro-g928bac7a6_1920.jpg" alt="Ölandsbron">
-          <button class="image-btn">Ölandsbron</button>
-        </div>
-        <div class="image-item">
-          <img src="img/jönköpingmuseum.jpg" alt="Jönköpings museum">
-          <button class="image-btn">Jönköpings museum</button>
-        </div>
-        <div class="image-item">
-          <img src="img/lighthouse-g402fc3fe5_1920.jpg" alt="Fyr">
-          <button class="image-btn">Fyr</button>
-        </div>
-        <div class="image-item">
-          <img src="img/solliden.jpg" alt="Solliden">
-          <button class="image-btn">Solliden</button>
-        </div>
-        <div class="image-item">
-          <img src="img/borgholm.jpg" alt="Borgholms slott">
-          <button class="image-btn">Borgholms slott</button>
-        </div>
-        <div class="image-item">
-          <img src="img/kalmarslott.jpg" alt="Kalmar slott">
-          <button class="image-btn">Kalmar slott</button>
-        </div>
-        <div class="image-item">
-          <img src="img/historical-buildings-g388906ba4_1920.jpg" alt="Historiska byggnader">
-          <button class="image-btn">Historiska byggnader</button>
-        </div>
+
+      <img id="scrollToTopButton" onclick="scrollToTop()" src="/img/unnamed.png" alt="pil">
+      <section class="select">
+        <img id="attractionMenu" src="img/kalmar-gd6e409997_1920.jpg" alt="hus">
+
+        <select id="attractionSelect" onchange="buttons()">
+          <option value="none">Select Attraction Type</option>
+          <option value="Museum">Museum</option>
+          <option value="Slott">Slott</option>
+      </select>
+      <div id="buttons1" style="display:none;">
+          <button>Ikea museum</button>
+          <Button>Knapp två</Button>
       </div>
+      <div id="buttons2" style="display:none;">
+          <button>Teleborg Slott</button>
+          <Button>Knapp två</Button>
+      </div>
+      <div id="description">
+          <h2>Description:</h2>
+          <p id="descriptionName"></p>
+          <p id="name"></p>
+      </div>
+</section>
     
 
             <section class="info">

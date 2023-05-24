@@ -6,21 +6,38 @@ function init() {
   }
     window.onload = init;
   function scrollToDiv() {
-    document.getElementById("kronoberg").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("bildkronoberg").scrollIntoView({ behavior: 'smooth' });
     
   }
   
 function scrollToDiv2() {
-    document.getElementById("kalmar").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("bildkalmar").scrollIntoView({ behavior: 'smooth' });
     
   }
 
   function scrollToDiv3() {
-    document.getElementById("jönköping").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("bildjönköping").scrollIntoView({ behavior: 'smooth' });
     
   }
 
   function scrollToDiv4() {
-    document.getElementById("öland").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("bildöland").scrollIntoView({ behavior: 'smooth' });
     
   }
+
+  
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+  
+  window.addEventListener("scroll", function() {
+    let scrollToTopButton = document.getElementById("scrollToTopButton");
+    if (window.pageYOffset > 30) {
+      scrollToTopButton.style.display = "block";
+    } else {
+      scrollToTopButton.style.display = "none";
+    }
+  });

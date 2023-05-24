@@ -81,8 +81,6 @@ h1 {
 }
 
 
-
-
 #overlay {
     position: absolute;
     top: 90%;
@@ -132,6 +130,8 @@ h1 {
  .text-container {
   font-size: 20px;
   text-align: center;
+   flex-basis: 50%;
+  padding: 0 20px;
  }
  
 
@@ -186,8 +186,8 @@ h1 {
 
   #image-container img {
     object-fit: cover;
-    width: 100%; /* för att visa tre bilder på varje rad */
-    height: 300px; /* för att ge alla bilderna samma höjd */
+    width: 100%; 
+    height: 300px; 
   
   }
 
@@ -225,28 +225,13 @@ h1 {
   }
 
   .select img {
-    width: 100%; /* adjust this value to your liking */
-    height: auto; /* this will maintain the image's aspect ratio */
+    width: 100%; 
+    height: auto; 
     object-fit: cover;
   }
 
-  #attractionSelect {
-    border: none;
-    color:#000000;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-bottom: 400px;
-  }
 
-  .image-container {
-    position: relative;
-    display: inline-block;
-  }
+
   
   #scrollToTopButton {
     position: fixed;
@@ -261,10 +246,139 @@ h1 {
     position: relative;
   }
   
-  #attractionSelect {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+  
+  #scrollToTopButton {
+    display: none;
+    width: 60px;
+    margin-right: 30px;
   }
+
+
+  #attractionSelect {
+    display: inline-block;
+    padding: 30px;
+    padding-right: 100px;
+    margin-left: -20px;
+    position: absolute;
+    font-size: 20px;
+    top: 5%; 
+    left: 5%; 
+    z-index: 2; 
+    top: 40px; 
+    left: 50px; 
+    width: 30%;
+    
+  }
+  
+  #description {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 130px; 
+    left: 650px; 
+    z-index: 2; 
+  }
+  
+  #description h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+   
+  }
+  
+  #description p {
+    display: flex;
+  margin-bottom: 5px;
+  font-size: 20px; /* Adjust the value as needed */
+ 
+    
+  }
+  
+  #lista {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 100px;
+    top: 40px; 
+    left: 50px; 
+    width: 30%; 
+    z-index: 2; 
+    overflow-y: scroll;
+    max-height: 650px;
+    
+  }
+
+
+
+  #lista button {
+    padding: 25px 30px;
+    font-size: 16px;
+    transition: all 0.1s;
+    display: block;
+    
+  }
+  
+  #lista button:hover {
+    transform: scale(1.1);
+  }
+  
+  #bild {
+    position: relative;
+  }
+
+  button {
+    display: block;
+    margin-right: 5px;
+  
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    background-color: #f2f2f2d2;
+    border: 1px solid #ccc;
+    
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 4px #888;
+    background-color:#e0e0e0;
+  }
+
+  #description {
+    font-size: 20px;
+    margin-top: -90px;
+    margin-left: -100px;
+    height: 800px;
+    width: 700px;
+    
+  }
+
+  #description h2 {
+    font-size: 30px;
+  }
+
+  #map {
+    width: 20%;
+    height: 200px;
+    margin: 15px 4%; 
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+
+.hidden {
+ display: none; 
+}
+

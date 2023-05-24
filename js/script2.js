@@ -20,6 +20,7 @@ function init() {
 }
 */
 
+
 function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -41,3 +42,4 @@ function scrollToDiv() {
     document.getElementById("attractionMenu").scrollIntoView({ behavior: 'smooth' });
   }
   
+

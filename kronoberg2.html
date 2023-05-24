@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/script2.js"></script>
+    <script src="js/script5.js"></script>
+
     <title>Kronoberg</title>
 </head>
 <body>
@@ -26,7 +28,7 @@
     
 
         <section class="video">
-            <video autoplay muted id="myVideo">
+            <video autoplay muted loop id="myVideo">
                 <source src="/videos/skane-16718.mp4" type="video/mp4">
               </video>
 
@@ -43,24 +45,21 @@
           
 
 
-          <select id="attractionSelect" onchange="buttons()">
-            <option value="none">Select Attraction Type</option>
-            <option value="Museum">Museum</option>
-            <option value="Slott">Slott</option>
-        </select>
-        <div id="buttons1" style="display:none;">
-            <button>Ikea museum</button>
-            <Button>Knapp två</Button>
-        </div>
-        <div id="buttons2" style="display:none;">
-            <button>Teleborg Slott</button>
-            <Button>Knapp två</Button>
-        </div>
-        <div id="description">
-            <h2>Description:</h2>
-            <p id="descriptionName"></p>
-            <p id="name"></p>
-        </div>
+            <select id="attractionSelect">
+                <option value="none">Select Attraction Type</option>
+                <option id="Museum">Museum</option>
+                <option id="Slott">Slott</option>
+                <option id="Kyrka">Kyrka</option>
+                <option id="Sevärdigheter">Sevärdigheter</option>
+                <option id="Konst">Konst</option>
+            </select>
+            
+            <div id="description">
+                <h2>Description:</h2>
+                <p id="descriptionName"></p>
+                <p id="name"></p>
+            </div>
+            <div id="lista"></div>
 </section>
 
         
