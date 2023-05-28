@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/script2.js"></script>
+    <script src="js/script6.js"></script>
     <title>Kalmar</title>
 </head>
 <body>
@@ -41,44 +42,50 @@
       <section class="select">
         <img id="attractionMenu" src="img/kalmar-gd6e409997_1920.jpg" alt="hus">
 
-        <select id="attractionSelect" onchange="buttons()">
-          <option value="none">Select Attraction Type</option>
-          <option value="Museum">Museum</option>
-          <option value="Slott">Slott</option>
-      </select>
-      <div id="buttons1" style="display:none;">
-          <button>Ikea museum</button>
-          <Button>Knapp två</Button>
-      </div>
-      <div id="buttons2" style="display:none;">
-          <button>Teleborg Slott</button>
-          <Button>Knapp två</Button>
-      </div>
-      <div id="description">
-          <h2>Description:</h2>
-          <p id="descriptionName"></p>
-          <p id="name"></p>
-      </div>
-</section>
-    
+        <section class="select">
+            
+          
 
-            <section class="info">
-                <h3>I närheten</h3>
-                <div id="pic-container">
-                  <div class="pic">
-                    <img src="img/coffee-2560260_1920.jpg" alt="solliden">
-                    <span>Besök Sollidens slott och njut av den vackra trädgården.</span>
-                  </div>
-                  <div class="pic">
-                    <img src="img/skane-ystad-glemmingebro-olof-viktors-bageri-och-cafe-2100-1400-848.jpg" alt="vida">
-                    <span>Upptäck Vida Museum och dess spännande utställningar.</span>
-                  </div>
-                  <div class="pic">
-                    <img src="img/loaf-7830938_1920.jpg" alt="Lerkaka">
-                    <span>Besök Lerkakas pittoreska kvarn och upplev det genuina öländska landskapet.</span>
-                  </div>
-                </div>
-              </section>
+          <select id="attractionSelect">
+            <option value="none">Välj kategori</option>
+            <option id="Museum">Museum</option>
+            <option id="Slott">Slott</option>
+            <option id="Kyrka">Kyrka</option>
+            <option id="Sevärdigheter">Sevärdigheter</option>
+            <option id="Konst">Konst</option>
+        </select>
+        
+        <div id="description">
+         
+            
+            <p id="descriptionName"></p>
+            <p id="name"></p>
+            
+            
+        </div>
+        <div id="lista"></div>
+        <div id="map" class="hidden"></div>
+
+        </section>
+
+
+        <section class="info">
+          <h3>I närheten</h3>
+          <div id="pic-container">
+            <div class="pic">
+              <img src="img/coffee-2560260_1920.jpg" alt="solliden">
+              <span>Besök Sollidens slott och njut av den vackra trädgården.</span>
+            </div>
+            <div class="pic">
+              <img src="img/skane-ystad-glemmingebro-olof-viktors-bageri-och-cafe-2100-1400-848.jpg" alt="vida">
+              <span>Upptäck Vida Museum och dess spännande utställningar.</span>
+            </div>
+            <div class="pic">
+              <img src="img/loaf-7830938_1920.jpg" alt="Lerkaka">
+              <span>Besök Lerkakas pittoreska kvarn och upplev det genuina öländska landskapet.</span>
+            </div>
+          </div>
+        </section>
 
         
             

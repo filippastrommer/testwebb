@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #dad7d7;
+    background-color: #e5e3df;
 }
 
 
@@ -224,11 +224,7 @@ h1 {
     cursor: pointer;
   }
 
-  .select img {
-    width: 100%; 
-    height: auto; 
-    object-fit: cover;
-  }
+  
 
 
 
@@ -280,10 +276,11 @@ h1 {
     z-index: 2; 
   }
   
-  #description h2 {
-    font-size: 18px;
-    margin-bottom: 5px;
-    font-family:'Times New Roman', Times, serif;
+  h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
    
   }
   
@@ -376,9 +373,50 @@ h1 {
     float: right;
     margin-top: 40px;
     margin-right: 200px;
+   z-index: 2;
+
 }
 
-.hidden {
- display: none; 
+
+
+
+
+#adressicon {
+  list-style: none;
 }
+
+
+#adressicon .icon, img{
+  margin-right: 5px;
+  width: 3%;
+}
+
+#text {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
+  max-height: 300px;
+  border: #000000 solid 1px;
+  padding: 20px;
+  width: 700px;
+  
+  
+}
+
+#telefonnummer {
+  list-style: none;
+}
+
+#json {
+  display: flex;
+  list-style: none;
+  
+}
+
+
+
+#json div {
+  flex: 1;
+}
+
 

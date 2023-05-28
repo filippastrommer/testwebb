@@ -141,9 +141,9 @@ function getData(responseText) {
       "<p>" +
       item.abstract + 
       "</p>" +
-          "<p>" +
+          "<div id=eget>" +
       item.text +
-      "</p>" +
+      "</div>" +
       "<p><button onclick=\"window.location.href='" +
     item.website +
     "'\">Besök webbplatsen</button></p>" +

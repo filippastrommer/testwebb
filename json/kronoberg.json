@@ -1,0 +1,293 @@
+[
+    {"kronoberg_id": "433",
+  "opening_hours":{
+    "Måndag - Fredag": "09.00 - 15.00"
+  },
+          "pris": {
+            "Priser V": "Vuxna: 60kr",
+            "Priser S": "Senior: 55kr",
+            "Priser B": "Barn under 18 år: Fri entré"
+          }
+        },
+
+    {"kronoberg_id": "453",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+        },
+                "pris": {
+                  "Priser V": "Vuxna: 80kr",
+                  "Priser B": "Barn under 18 år: 40kr"
+                }
+              },
+
+     {"kronoberg_id": "454",
+              "opening_hours":{
+                "Måndag - Fredag": "09.00 - 15.00"
+              },
+                      "pris": {
+                        "Priser V": "Vuxna: 150kr",
+                        "Priser B": "Barn under 19 år: Fri entré",
+                        "Priser Stud": "Studenter: 75kr"
+                      }
+                    },
+
+    {"kronoberg_id": "466",
+            "opening_hours":{
+              "Måndag - Fredag": "09.00 - 15.00"
+             },
+             "pris": {
+            "Priser V": "Vuxna: 40kr",
+            "Priser B": "Barn under 19 år: Fri entré"
+       
+             }
+        },
+                    
+{"kronoberg_id": "468",
+"opening_hours":{
+  "Måndag - Fredag": "09.00 - 15.00"
+ },
+ "pris": {
+"Priser": "Fri entré"
+
+
+ }
+},
+ 
+{"kronoberg_id": "470",
+"opening_hours":{
+  "Måndag - Fredag": "09.00 - 15.00"
+ },
+ "pris": {
+"Priser": "Se webbplats för priser"
+
+
+ }
+},
+
+{"kronoberg_id": "472",
+            "opening_hours":{
+              "Måndag - Fredag": "09.00 - 15.00"
+             },
+             "pris": {
+            "Priser": "Pris saknas"
+       
+             }
+        },
+
+        {"kronoberg_id": "474",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+              
+        {"kronoberg_id": "477",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "479",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser V": "Vuxna: 40kr",
+        "Priser B": "Barn under 18 år: Fri entré",
+        "Priser stud": "Student: Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "480",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "481",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+       
+        {"kronoberg_id": "482",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+        {"kronoberg_id": "484",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+       
+        {"kronoberg_id": "485",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "486",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "487",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "516",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "517",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+        {"kronoberg_id": "518",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "523",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "524",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "525",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Dagspass: 50kr-100kr",
+        "Priser V": "Konstpass: 300-400kr"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "526",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "527",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "528",
+        "opening_hours":{
+          "Måndag - Fredag": "09.00 - 15.00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+      

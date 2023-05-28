@@ -1,0 +1,557 @@
+[
+    {
+      "jönköping_id": "449",
+      "opening_hours": {
+        "Oktober-April": 
+        "Måndag-Fredag: 10:00-15:00, Lördag-Söndag: 12:00-16:00",
+        "Maj-September": 
+        "Måndag-Fredag: 10:00-17:00, Lördag-Söndag: 12:00-16:00"
+      },
+
+            "pris": {
+                "Priser V": "Vuxen: 90kr",
+                "Priser S": "Senior: 90kr",
+                "Priser U": "16-18 år: 60 kr",
+                "Priser stud": "Student: 90 kr",
+                "Priser B": "Barn under 16 år: fri entré"
+        
+            }
+      
+      
+      
+      },
+    {
+      "jönköping_id": "451",
+      "opening_hours": {
+        "September-Juni": 
+        "Måndag-Söndag: 11:00-17:00",
+        "Juli-Augusti": 
+        "Måndag-Söndag: 10:00-17:00"
+       },
+       "pris": {
+        "Priser V": "Vuxen: 120kr",
+        "Priser S": "Senior: 100kr",
+        "Priser stud": "Student: 100 kr",
+        "Priser B": "Barn till och med 18: fri entré"
+
+    }
+
+    },
+
+   
+
+    {
+         "jönköping_id": "457",
+        "opening_hours": {
+            "10e Juni-Augusti": 
+            "Måndag-Fredag: 10:00-17:00, Lördag-Söndag: 10:00-15:00",
+            "September-Maj": 
+            "Måndag: Stängt, Tisdag-Fredag: 11:00-15:00"
+        },
+        "pris": {
+         "Priser V": "Vuxen: 80kr",
+         "Priser B": "Barn till och med 19: fri entré",
+         "Priser": "December-Januari: Fri entré"
+        }
+    },
+   
+    
+
+    {
+        "jönköping_id": "460",
+       "opening_hours": {
+        "Måndag": "Stängt",
+        "Tisdag": "10:00-19:00",
+        "Onsdag": "10:00-21:00",
+        "Torsdag": "10:00-19:00",
+        "Fredag": "10:00-19:00",
+        "Lördag": "11:00-15:00",
+        "Söndag": "11:00-15:00"
+       },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+   },
+
+   {
+    "jönköping_id": "462",
+   "opening_hours": {
+    "Måndag": "10:00-16:00",
+    "Tisdag": "10:00-16:00",
+    "Onsdag": "10:00-16:00",
+    "Torsdag": "10:00-16:00",
+    "Fredag": "10:00-16:00",
+    "Lördag": "12:00-16:00",
+    "Söndag": "12:00-16:00"
+   }, 
+
+   "pris": {
+     "Priser V": "Vuxen: 70kr",
+     "Priser S": "Senior: 50kr",
+     "Priser B": "Barn 7-15 år: 20kr",
+     "Priser stud": "Student: 50 kr",
+     "Priser": "Familj (2vuxna + 3 barn: 160kr"
+}
+
+
+},
+
+{
+    "jönköping_id": "519",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+   
+   },
+   "pris": {
+    "Priser": "beroende på aktivitet, se webbplats"
+}
+
+},
+
+{
+    "jönköping_id": "520",
+   "opening_hours": {
+    "Tisdag": "13:00-18:00, Övriga dagar: Enligt överenskommelse"
+   
+   },
+
+"pris": {
+ "Priser": "Kontakta oss för reparation, se webbplats"
+}
+
+
+},
+
+{
+    "jönköping_id": "521",
+   "opening_hours": {
+    "21a Januari-29e April": 
+        "Lördag: 11:00-15:00",
+        "6e Maj-18e Juni": 
+        "Lördag-Söndag: 11:00-15:00",
+        "27e Juni-20e Augusti": 
+        "Tisdag-Söndag: 11:00-15:00",
+        "26e Augusti-24e September": 
+        "Lördag-Söndag: 11:00-15:00",
+        "30e September-9e December": 
+        "Lördag: 11:00-15:00"
+        
+   }, 
+
+   "pris": {
+     "Priser V": "Vuxen: 60kr",
+     "Priser S": "Senior: 50kr",
+     "Priser U": "Barn 12-18 år: 30kr",
+     "Priser B": "Fri entré"
+}
+
+
+
+},
+
+
+
+{
+    "jönköping_id": "522",
+   "opening_hours": {
+    "Måndag": "Stängt",
+    "Tisdag": "10:00-19:00",
+    "Onsdag": "10:00-21:00",
+    "Torsdag": "10:00-19:00",
+    "Fredag": "10:00-19:00",
+    "Lördag": "11:00-15:00",
+    "Söndag": "11:00-15:00"
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "537",
+   "opening_hours": {
+    "Måndag": "13:00-16:30",
+    "Tisdag": "13:00-16:30",
+    "Onsdag": "13:00-16:30",
+    "Torsdag": "13:00-16:30",
+    "Fredag": "13:00-16:30",
+    "Lördag": "Stängt",
+    "Söndag": "Stängt"
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+
+},
+
+{
+    "jönköping_id": "538",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+
+},
+
+{
+    "jönköping_id": "539",
+   "opening_hours": {
+    "Måndag": "13:00-16:00",
+    "Tisdag": "13:00-16:00",
+    "Onsdag": "13:00-16:00",
+    "Torsdag": "13:00-16:00",
+    "Fredag": "13:00-16:00",
+    "Lördag": "Stängt",
+    "Söndag": "Stängt"
+
+   },
+   "pris": {
+    "Priser": "Pris saknas"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "540",
+   "opening_hours": {
+    "Kontakta oss för att boka guidning":""
+
+},
+"pris": {
+ "Priser": "Pris varierar på aktivitet"
+}
+
+
+},
+ 
+{
+    "jönköping_id": "640",
+   "opening_hours": {
+    "1a Oktober-30e April": 
+        "Måndag-Fredag: 09:00-16:00",
+        "1a Maj-30e September": 
+        "Måndag-Söndag: 09:00-17:00"
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+},
+
+{
+    "jönköping_id": "641",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "642",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "643",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "644",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "645",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+
+{
+    "jönköping_id": "646",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "647",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "648",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+
+{
+    "jönköping_id": "649",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+
+{
+    "jönköping_id": "650",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+
+
+
+{
+    "jönköping_id": "660",
+   "opening_hours": {
+    "Öppet 24h":""
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+
+},
+
+{
+    "jönköping_id": "674",
+   "opening_hours": {
+    "Måndag": "07:30-18:00",
+    "Tisdag": "07:30-19:30",
+    "Onsdag": "07:30-18:00",
+    "Torsdag": "07:30-18:00",
+    "Fredag": "07:30-17:00",
+    "Lördag": "09.00-15.00",
+    "Söndag": "09.00-15.00"
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+
+},
+{
+    "jönköping_id": "675",
+   "opening_hours": {
+    "Öppet 24h":""
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "676",
+   "opening_hours": {
+    "Öppet 24h":""
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "677",
+   "opening_hours": {
+    "1a Maj-30e Juni": "Fredag-Söndag: 11:00-15:00"
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "697",
+   "opening_hours": {
+    "20e juni-20e augusti": "Dagliga visningar klockan 11 (engelska) och klockan 13 (svenska)"
+   },
+   "pris": {
+    "Priser V": "Vuxen: 90kr",
+    "Priser B": "Barn under 18: 10kr",
+    "Priser": "Kulturarvskortet: 50 kronor"
+   }
+
+
+
+},
+
+
+
+{
+    "jönköping_id": "712",
+   "opening_hours": {
+    "Café Sörgården": "11e Juni-30e Juni: 11:00-17:00, 1a Juli-13e Augusti: 10:00-18:00, 14e Augusti-27e Augusti: 11:00-17:00",
+    "Smedjestugan": "Bokning genom Airbnb eller direkt cafe@astridsbullerbyn.se, 070-7646724"
+   },
+   "pris": {
+    "Priser": "Smedjestugan: 700kr/natt"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "717",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+   },
+   "pris": {
+    "Priser": "Se webbplats för pris"
+   }
+
+
+
+
+},
+
+{
+    "jönköping_id": "718",
+   "opening_hours": {
+    "Öppet 24h":""
+   },
+   "pris": {
+    "Priser": "Se webbplats för pris"
+   }
+
+
+
+},
+
+{
+    "jönköping_id": "723",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+}
+
+
+]
+
+
+
+ 
+
+
+
+

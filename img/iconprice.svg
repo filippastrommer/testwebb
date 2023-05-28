@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_1" data-name="Lager 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1182.37 1039.13">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 413.86px;
+      }
+
+      .cls-3, .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1180.13,169.61l-72.73,361.11L747.04,1.26l362.6,64.79c48.37,8.62,80.19,55.36,70.49,103.57Z"/>
+  <rect class="cls-1" x="233.48" y="68.39" width="641.14" height="902.34" transform="translate(671.81 -230.8) rotate(55.76)"/>
+  <circle class="cls-2" cx="956.47" cy="245.66" r="66.15"/>
+  <text class="cls-3" transform="translate(485.26 612.99)"><tspan x="0" y="0">€</tspan></text>
+</svg>

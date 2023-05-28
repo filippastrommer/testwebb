@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_1" data-name="Lager 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264.9 377.52">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <path id="Icon_material-place" data-name="Icon material-place" class="cls-1" d="M132.45,2.5C60.74,2.45,2.55,60.54,2.5,132.25c0,.07,0,.13,0,.2,0,97.46,129.95,241.34,129.95,241.34,0,0,129.95-143.87,129.95-241.34,.05-71.71-58.04-129.9-129.75-129.95-.07,0-.13,0-.2,0Zm0,176.36c-25.63,0-46.41-20.78-46.41-46.41s20.78-46.41,46.41-46.41,46.41,20.78,46.41,46.41c0,25.63-20.78,46.4-46.41,46.41Z"/>
+</svg>
