@@ -63,7 +63,7 @@ h1 {
 .meny ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     
 }
 .meny ul li::after {
@@ -147,29 +147,6 @@ h1 {
    
   }
 
-  #pic-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #pic-container img {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    margin: 30px;
-  }
-
-
-  #pic-container img:hover {
-    opacity: 0.7;
-    cursor: pointer;
-  }
-  
-
-  #pic-container img {
-    opacity: 1;
-    transition: opacity 0.2s ease-in-out;
-  }
 
 
   #image-container {
@@ -287,7 +264,7 @@ h1 {
   #description p {
     display: flex;
   margin-bottom: 5px;
-  font-size: 20px; /* Adjust the value as needed */
+  font-size: 20px; 
  
     
   }
@@ -371,8 +348,8 @@ h1 {
     height: 200px;
     margin: 15px 4%; 
     float: right;
-    margin-top: 40px;
-    margin-right: 200px;
+    margin-top: 120px;
+    margin-right: 50px;
    z-index: 2;
 
 }
@@ -418,5 +395,6 @@ h1 {
 #json div {
   flex: 1;
 }
+
 
 

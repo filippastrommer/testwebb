@@ -1,0 +1,153 @@
+[
+    {
+        "sectionId": "00",
+        "address":
+            "Slottsvägen",
+"zip_code": "392 33",
+"city": "Kalmar",
+"website": "https://www.kalmarkonstmuseum.se/"
+    },
+    {
+        "sectionId": "01",
+        "address":
+            "Södra Långgatan 5",
+"zip_code": "392 32",
+"city": "Kalmar",
+"website": "https://ernestokalmar.se"
+    },
+    {
+        "sectionId": "02",
+        "address":
+            "Södra Vägen 12",
+"zip_code": "392 33",
+"city": "Kalmar",
+"website": "https://www.filmstaden.se/biograf/NCG73682/saga-kalmar"
+    },
+    {
+        "sectionId": "03",
+        "address":
+            "Stora Vägen 75",
+"zip_code": "365 43",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/"
+    },
+    {
+        "sectionId": "04",
+        "address":
+            "Kantavägen 29",
+"zip_code": "380 40",
+"city": "Orrefors",
+"website": "http://www.orreforshotell.se/"
+    },
+    {
+        "sectionId": "05",
+        "address":
+            "Stora Vägen 2",
+"zip_code": "365 43",
+"city": "Kosta",
+"website": "https://kostalodge.se/"
+    },
+    {
+        "sectionId": "06",
+        "address":
+            "Mellangatan 11",
+"zip_code": "382 30",
+"city": "Nybro",
+"website": "https://nybrostorahotellet.se/"
+    },
+    {
+        "sectionId": "07",
+        "address":
+            "Storgatan 2",
+"zip_code": "360 65",
+"city": "Boda",
+"website": "https://camping.se/sv/campingar/3206/Boda-Camping"
+    },
+    {
+        "sectionId": "08",
+        "address":
+            "Stora Vägen 61",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "http://www.doncamillo.se/"
+    },
+    {
+        "sectionId": "09",
+        "address":
+            "Holsteins väg 7",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/kosta-delikatess-butik-restaurang/"
+    },
+    {
+        "sectionId": "10",
+        "address":
+            "Stora Vägen 77",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://www.kostaoutlet.se/mat-fika/matmagasinet/"
+    },
+    {
+        "sectionId": "11",
+        "address":
+            "Stora Vägen 75",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/linnea-art-restaurant/"
+    },
+    {
+        "sectionId": "12",
+        "address":
+            "Kantavägen 29",
+"zip_code": "380 40",
+"city": "Orrefors",
+"website": "http://www.orreforshotell.se/"
+    },
+    {
+        "sectionId": "13",
+        "address":
+            "Kulturgatan 3",
+"zip_code": "553 24",
+"city": "Jönköping",
+"website": "https://kulturhusetspira.se"
+    },
+    {
+        "sectionId": "14",
+        "address":
+            "Brahegatan 39",
+"zip_code": "563 32",
+"city": "Gränna",
+"website": "https://polkagris.com/"
+    }
+    ,
+    {
+        "sectionId": "15",
+        "address":
+            "Hotellplan",
+"zip_code": "553 20",
+"city": "Jönköping",
+"website": "https://elite.se/sv/hotell/jonkoping/stora-hotellet/"
+    },
+    {
+        "sectionId": "16",
+        "address":
+            "Kyrkogatan 6",
+"zip_code": "553 16",
+"city": "Jönköping",
+"website": "https://www.jkpglunch.se/den-smalandska-kolonin/"
+    },
+    {
+    "sectionId": "17",
+    "address": "Sollidenvägen 5",
+    "zip_code": "387 94",
+    "city": "Borgholm",
+    "website": "https://www.borgholmsslott.se/"
+    },
+    {
+        "sectionId": "18",
+        "address": "Himmelsberga bygata 1",
+        "zip_code": "387 93",
+        "city": "Borgholm",
+        "website": "https://olandsmuseum.com/"
+        }
+]

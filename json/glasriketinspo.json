@@ -1,0 +1,74 @@
+[
+    {
+        "sectionId": "03",
+        "address":
+            "Stora Vägen 75",
+"zip_code": "365 43",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/"
+    },
+    {
+        "sectionId": "04",
+        "address":
+            "Kantavägen 29",
+"zip_code": "380 40",
+"city": "Orrefors",
+"website": "http://www.orreforshotell.se/"
+    },
+    {
+        "sectionId": "05",
+        "address":
+            "Stora Vägen 2",
+"zip_code": "365 43",
+"city": "Kosta",
+"website": "https://kostalodge.se/"
+    },
+    {
+        "sectionId": "06",
+        "address":
+            "Mellangatan 11",
+"zip_code": "382 30",
+"city": "Nybro",
+"website": "https://nybrostorahotellet.se/"
+    },
+    {
+        "sectionId": "07",
+        "address":
+            "Storgatan 2",
+"zip_code": "360 65",
+"city": "Boda",
+"website": "https://camping.se/sv/campingar/3206/Boda-Camping"
+    },
+    {
+        "sectionId": "08",
+        "address":
+            "Stora Vägen 61",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "http://www.doncamillo.se/"
+    },
+    {
+        "sectionId": "09",
+        "address":
+            "Holsteins väg 7",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/kosta-delikatess-butik-restaurang/"
+    },
+    {
+        "sectionId": "10",
+        "address":
+            "Stora Vägen 77",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://www.kostaoutlet.se/mat-fika/matmagasinet/"
+    },
+    {
+        "sectionId": "11",
+        "address":
+            "Stora Vägen 75",
+"zip_code": "360 52",
+"city": "Kosta",
+"website": "https://kostabodaarthotel.se/linnea-art-restaurant/"
+    }
+]

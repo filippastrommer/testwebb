@@ -1,0 +1,35 @@
+[
+    {
+        "sectionId": "13",
+        "address":
+            "Kulturgatan 3",
+"zip_code": "553 24",
+"city": "Jönköping",
+"website": "https://kulturhusetspira.se"
+    },
+    {
+        "sectionId": "14",
+        "address":
+            "Brahegatan 39",
+"zip_code": "563 32",
+"city": "Gränna",
+"website": "https://polkagris.com/"
+    }
+    ,
+    {
+        "sectionId": "15",
+        "address":
+            "Hotellplan",
+"zip_code": "553 20",
+"city": "Jönköping",
+"website": "https://elite.se/sv/hotell/jonkoping/stora-hotellet/"
+    },
+    {
+        "sectionId": "16",
+        "address":
+            "Kyrkogatan 6",
+"zip_code": "553 16",
+"city": "Jönköping",
+"website": "https://www.jkpglunch.se/den-smalandska-kolonin/"
+    }
+]

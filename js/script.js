@@ -1,11 +1,11 @@
 function init() {
-    document.getElementById("scrollBtn1").addEventListener("click", scrollToDiv);
+    document.getElementById("scrollBtn1").addEventListener("click", scrollToDiv1);
     document.getElementById("scrollBtn2").addEventListener("click", scrollToDiv2);
     document.getElementById("scrollBtn3").addEventListener("click", scrollToDiv3);
     document.getElementById("scrollBtn4").addEventListener("click", scrollToDiv4);
   }
     window.onload = init;
-  function scrollToDiv() {
+  function scrollToDiv1() {
     document.getElementById("bildkronoberg").scrollIntoView({ behavior: 'smooth' });
     
   }

@@ -1,0 +1,595 @@
+[
+    {"kalmar_id": "450",
+  "opening_hours":{
+    "Måndag - Fredag": "09.00 - 15.00"
+  },
+          "pris": {
+            "Priser V": "Vuxna: 150kr",
+            "Priser S": "Senior: 130kr",
+            "Priser B": "Barn (7-12): 40kr",
+            "Priser ST": "Säsongs biljett: 585kr"
+          }
+        },
+      {
+          "kalmar_id": "452",
+          "opening_hours": {
+              "Säsong 1 april - 31 maj": "Dagligen: 10.00 - 16.00, Kvällsöppet tisdagar: 10.00-20.00",
+              "Säsong 1 juni - 1 oktober": "Måndag: 10.00 - 18.00, Tisdag-Torsdag: 10.00 - 20.00, Fredag-Söndag: 10.00-14.00",
+              "Säsong 2 oktober - 5 november": "Måndag: 10.00 - 18.00, Tisdag-Torsdag: 10.00 - 20.00, Fredag-Söndag: 10.00-16.00",
+              "Säsong 6 november - 26 november": "Endast helger: 10.00 - 16.00",
+              "Säsong 30 november - 3 december": "Besök webbplats för besökstider",
+              "Säsong 7 december - 17 december": "Torsdag-Söndag: 11.00 - 15.00",
+              "Säsong 26 december - 31 december": "Dagligen: 11.00 - 15.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 180kr",
+            "Priser S": "Senior: 155kr",
+            "Priser B": "Barn (3-5): 65kr",
+            "Priser U": "Barn/Ungdom (6-19): 90kr",
+            "Priser Stud": "Studerande: 140kr"
+          }
+      },
+      {
+          "kalmar_id": "458",
+          "opening_hours": {
+              "Måndag - Tisdag": "10.00 - 16.00",
+              "Onsdag": "10.00 - 20.00",
+              "Torsdag - Fredag": "10.00 - 16.00",
+              "Lördag - Söndag": "11.00 - 16.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 130kr",
+            "Priser S": "Senior: 95kr",
+            "Priser U": "Barn/Ungdom (0-19): 0kr",
+            "Priser Stud": "Studerande: 95kr",
+            "Priser M": "Medlem i hembygsföreningen/kulturarvskort: 65kr"
+          }
+      },
+      {
+          "kalmar_id": "478",
+          "opening_hours": {
+              "Helger i april, maj & september": "Helger: 11.00 - 17.00",
+              "Säsong juni - augusti": "Dagligen: 11.00 - 17.00"
+          }
+      },
+      {
+          "kalmar_id": "483",
+          "opening_hours": {
+              "Öppettider": "Se webbplats"
+          }
+      },
+      {
+          "kalmar_id": "529",
+          "opening_hours": {
+              "Säsong 1 maj - 9 juli": "Torsdag - Söndag: 10.00 - 15.00",
+              "Säsong 8 juli - 27 augusti": "Tisdag - Söndag: 10.00 - 17.00",
+              "Säsong 28 augusti - 1 oktober": "Torsdag - Söndag: 10.00-17.00",
+              "Säsong 2 oktober - 17 december": "Lördag - Söndag: 10.00 - 15.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 120kr",
+            "Priser S": "Senior: 100kr",
+            "Priser U": "Barn/Ungdom (0-16): 0kr",
+            "Priser Stud": "Studerande: 100kr",
+            "Priser M": "Kulturarvskort: 60kr"
+          }
+      },
+      {
+          "kalmar_id": "530",
+          "opening_hours": {
+              "Säsong 24 juni - ": "Onsdag - Söndag: 11.00 - 17.00",
+              "Övriga öppettider": "Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 40kr",
+            "Priser U": "Barn/Ungdom (0-15): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "531",
+          "opening_hours": {
+              "Öppettider": "Se webbplats"
+          }
+      },
+      {
+          "kalmar_id": "532",
+          "opening_hours": {
+              "Säsong 1 maj - 31 maj": "Fredag - Söndag: 11.00 - 16.00",
+              "Säsong 1 juni - 23 juni": "Dagligen: 11.00 - 16.00",
+              "Säsong 24 juni - 13 augusti": "Dagligen: 10.00 - 17.00",
+              "Säsong 14 augusti - 31 augusti": "Dagligen: 11.00 - 16.00",
+              "Säsong 1 september - skördehelgen": "Fredag - Söndag: 11.00 - 16.00",
+              "Säsong 1 oktober - Allhelgona": "Helger: 11.00 - 16.00",
+              "Övriga öppettider": "Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 80kr",
+            "Priser B": "Barn (0-7): 0kr",
+            "Priser U": "Barn/Ungdom (7-15): 40kr",
+            "Priser ST": "Årskort: 200kr"
+          }
+      },
+      {
+          "kalmar_id": "533",
+          "opening_hours": {
+              "6-7 maj": "11.00 - 16.00",
+              "13-14 maj": "11.00 - 16.00",
+              "18-21 maj": "11.00 - 16.00",
+              "2-6 juni": "11.00 - 16.00",
+              "10-11 juni": "11.00 - 16.00",
+              "17-18 juni": "11.00 - 16.00",
+              "24 juni - 13 augusti": "Dagligen: 11.00 - 16.00",
+              "Övriga öppettider": "Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 100kr",
+            "Priser B": "Barn (0-6): 0kr",
+            "Priser U": "Barn/Ungdom (7-15): 50kr"
+          }
+      },
+      {
+          "kalmar_id": "534",
+          "opening_hours": {
+              "Säsong 10 april - 1 november": "Dagligen: 10.00 - 17.00"
+          },
+          "Priser": "Entré: 40kr",
+          "Priser V": "Kan vara ändrade priser beroende på aktuella event, vänligen se webbplats."
+      },
+      {
+          "kalmar_id": "535",
+          "opening_hours": {
+              "Säsong 28 juni - 28 augusti": "Tisdag, Torsdag & Söndag: 11.00-",
+              "Övriga öppettider": "Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 80kr",
+            "Priser U": "Barn/Ungdom (0-15): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "536",
+          "opening_hours": {
+              "Öppettider": "Se webbplats"
+          }
+      },
+      {
+          "kalmar_id": "541",
+          "opening_hours": {
+              "Måndag": "11.00 - 16.00",
+              "Tisdag": "11.00 - 16.00",
+              "Onsdag": "11.00 - 16.00",
+              "Torsdag": "11.00 - 16.00",
+              "Fredag": "11.00 - 16.00",
+              "Lördag": "11.00 - 16.00",
+              "Söndag": "10.00 - 14.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 250kr",
+            "Priser U": "Barn/Ungdom (5-16): 195kr",
+            "Priser B": "Barn (0-4): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "542",
+          "opening_hours": {
+              "Söndag": "12.00 - 16.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 50kr",
+            "Priser S": "Senior: 20kr",
+            "Priser U": "Barn/Ungdom (6-12): 30kr",
+            "Priser B":"Barn (0-6): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "620",
+          "opening_hours": {
+              "Besök måste förbokas": "",
+              "Måndag - Torsdag": "09.00, 11.30, 14.00",
+              "Fredag": "09.00, 11.00",
+              "Lördag - Söndag": "11.00, 13.00, 15.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 70kr",
+            "Priser S":"Senior: 50kr",
+            "Priser Stud":"Studerande: 50kr",
+            "Priser U": "Barn/Ungdom (7-16): 30kr",
+            "Priser B":"Barn (0-7): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "622",
+          "opening_hours": {
+            "Måndag": "10.00 - 18.00",
+            "Tisdag": "10.00 - 18.00",
+            "Onsdag": "10.00 - 18.00",
+            "Torsdag": "10.00 - 18.00",
+            "Fredag": "10.00 - 18.00",
+            "Lördag": "10.00 - 16.00",
+            "Söndag": "10.00 - 16.00"
+          },
+          "Priser":"Entré: Fri entré."
+        }, 
+        {
+          "kalmar_id": "623",
+          "opening_hours": {
+            "Måndag": "10.00 - 16.00",
+            "Tisdag": "10.00 - 16.00",
+            "Onsdag": "10.00 - 16.00",
+            "Torsdag": "10.00 - 14.00",
+            "Fredag": "10.00 - 16.00",
+            "Lördag": "10.00 - 14.00",
+            "Söndag": "10.00 - 14.00"
+          }
+        }, 
+        {
+          "kalmar_id": "624",
+          "opening_hours": {
+            "Måndag": "10.00 - 18.00",
+            "Tisdag": "10.00 - 18.00",
+            "Onsdag": "10.00 - 18.00",
+            "Torsdag": "10.00 - 18.00",
+            "Fredag": "10.00 - 18.00",
+            "Lördag": "10.00 - 14.00",
+            "Söndag": "Stängt"
+          }
+        }, 
+        {
+          "kalmar_id": "626",
+          "opening_hours": {
+            "Måndag": "10.00 - 16.00",
+            "Tisdag": "10.00 - 16.00",
+            "Onsdag": "10.00 - 16.00",
+            "Torsdag": "10.00 - 16.00",
+            "Fredag": "10.00 - 16.00",
+            "Lördag": "10.00 - 14.00",
+            "Söndag": "Stängt"
+          }
+        }, 
+        {
+          "kalmar_id": "629",
+          "opening_hours": {
+            "Måndag": "10.00 - 17.00",
+            "Tisdag": "10.00 - 17.00",
+            "Onsdag": "10.00 - 17.00",
+            "Torsdag": "10.00 - 17.00",
+            "Fredag": "10.00 - 17.00",
+            "Lördag": "10.00 - 16.00",
+            "Söndag": "10.00 - 16.00"
+          }
+        }, 
+        {
+          "kalmar_id": "630",
+          "opening_hours": {
+            "Måndag": "13.00 - 17.00",
+            "Tisdag": "13.00 - 17.00",
+            "Onsdag": "13.00 - 17.00",
+            "Torsdag": "11.00 - 17.00",
+            "Fredag": "13.00 - 17.00",
+            "Lördag": "12.00 - 16.00",
+            "Söndag": "12.00 - 16.00"
+          }
+        }, 
+        {
+          "kalmar_id": "631",
+          "opening_hours": {
+            "Måndag": "10.00 - 17.00",
+            "Tisdag": "10.00 - 17.00",
+            "Onsdag": "10.00 - 17.00",
+            "Torsdag": "10.00 - 17.00",
+            "Fredag": "10.00 - 17.00",
+            "Lördag": "10.00 - 17.00",
+            "Söndag": "10.00 - 17.00"
+          }
+        }, {
+          "kalmar_id": "639",
+          "opening_hours": {
+            "Måndag": "08.00 - 15.30",
+            "Tisdag": "08.00 - 15.30",
+            "Onsdag": "08.00 - 15.30",
+            "Torsdag": "08.00 - 15.30",
+            "Fredag": "08.00 - 15.30",
+            "Lördag": "09.00 - 14.00",
+            "Söndag": "09.00 - 14.00"
+          }
+        }, 
+        {
+          "kalmar_id": "651",
+          "opening_hours": {
+            "Måndag": "",
+            "Tisdag": "",
+            "Onsdag": "",
+            "Torsdag": "",
+            "Fredag": "",
+            "Lördag": "",
+            "Söndag": ""
+          }
+        }, 
+        {
+          "kalmar_id": "653",
+          "opening_hours": {
+            "Öppettider": "Se webbplats"
+          }
+        }, 
+        {
+          "kalmar_id": "661",
+          "opening_hours": {
+            "Turistinformationen är öppen mellan 26 juni – 25 augusti.": "Vardagar: 10.00 - 16.30"
+          }
+        }, 
+        {
+          "kalmar_id": "662",
+          "opening_hours": {
+            "Öppettider": "Se webbplats"
+          }
+        },
+        {
+          "kalmar_id": "663",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "664",
+          "opening_hours": {
+            "Öppettider": "Se webbplats"
+          }
+        },
+        {
+          "kalmar_id": "665",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "666",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "667",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "668",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "669",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "670",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "671",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "672",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "673",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+        },
+        {
+          "kalmar_id": "678",
+          "opening_hours": {
+            "Måndag": "11.00 - 16.00",
+            "Tisdag": "11.00 - 16.00",
+            "Onsdag": "11.00 - 16.00",
+            "Torsdag": "11.00 - 16.00",
+            "Fredag": "11.00 - 16.00",
+            "Lördag": "11.00 - 16.00",
+            "Söndag": "11.00 - 16.00",
+            "Öppettiderna kan variera baserat på säsong": "Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 50kr",
+            "Priser U": "Barn/Ungdom: 20kr"
+          }
+        },
+        {
+          "kalmar_id": "679",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "Stängt",
+            "Onsdag": "Stängt",
+            "Torsdag": "Stängt",
+            "Fredag": "Stängt",
+            "Lördag": "11.00 - 16.00",
+            "Söndag": "11.00 - 16.00",
+            "Öppettiderna kan variera baserat på säsong": "Se webbplats"
+          }
+        },
+        {
+          "kalmar_id": "680",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+      },
+      {
+          "kalmar_id": "681",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+      },
+      {
+          "kalmar_id": "682",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+      },
+      {
+          "kalmar_id": "683",
+          "opening_hours": {
+            "Måndag": "10.00 - 22.00",
+            "Tisdag": "10.00 - 22.00",
+            "Onsdag": "10.00 - 22.00",
+            "Torsdag": "10.00 - 22.00",
+            "Fredag": "10.00 - 22.00",
+            "Lördag": "10.00 - 22.00",
+            "Söndag": "10.00 - 22.00"
+          }
+      },
+      {
+          "kalmar_id": "684",
+          "opening_hours": {
+            "Måndag": "10.00 - 17.00",
+            "Tisdag": "10.00 - 17.00",
+            "Onsdag": "10.00 - 17.00",
+            "Torsdag": "10.00 - 17.00",
+            "Fredag": "10.00 - 17.00",
+            "Lördag": "10.00 - 17.00",
+            "Söndag": "10.00 - 17.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 120kr",
+            "Priser Stud":"Studerande: 80kr",
+            "Priser U": "Ungdom (12-19): 80kr",
+            "Priser B":"Barn (0-6): 0kr, barn (7-11): 60kr"
+          }
+      },
+      {
+          "kalmar_id": "685",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "Stängt",
+            "Onsdag": "Stängt",
+            "Torsdag": "11.00 - 16.00",
+            "Fredag": "11.00 - 16.00",
+            "Lördag": "11.00 - 16.00",
+            "Söndag": "Stängt"
+          }
+      },
+      {
+          "kalmar_id": "694",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "Stängt",
+            "Onsdag": "Stängt",
+            "Torsdag": "11.00 - 17.00",
+            "Fredag": "11.00 - 17.00",
+            "Lördag": "11.00 - 17.00",
+            "Söndag": "11.00 - 17.00",
+            "Öppettiderna kan variera baserat på säsong":"Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 75kr, (OBS! Under högsäsong kan priserna variera.",
+            "Priser U": "Barn/Ungdom (0-16): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "696",
+          "opening_hours": {
+            "Öppettider": ""
+          }
+      },
+      {
+          "kalmar_id": "708",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "11.00 - 16.00",
+            "Onsdag": "11.00 - 16.00",
+            "Torsdag": "11.00 - 16.00",
+            "Fredag": "11.00 - 16.00",
+            "Lördag": "11.00 - 16.00",
+            "Söndag": "11.00 - 16.00"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 100kr",
+            "Priser U": "Barn/Ungdom (0-18): 0kr"
+          }
+      },
+      {
+          "kalmar_id": "709",
+          "opening_hours": {
+            "Säsong juni - augusti": "Tisdag - Fredag: 12.00 - 17.00",
+            "Helger i juli och augusti": "Se webbplats"
+          },
+          "Priser":"Entré: 50kr"
+      },
+      {
+          "kalmar_id": "711",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "11.00 - 17.00",
+            "Onsdag": "11.00 - 17.00",
+            "Torsdag": "11.00 - 17.00",
+            "Fredag": "11.00 - 17.00",
+            "Lördag": "11.00 - 17.00",
+            "Söndag": "11.00 - 17.00"
+          },
+          "Priser V":"Vuxna: 50kr"
+      },
+      {
+          "kalmar_id": "714",
+          "opening_hours": {
+            "Måndag": "10.00 - 18.00",
+            "Tisdag": "10.00 - 18.00",
+            "Onsdag": "10.00 - 18.00",
+            "Torsdag": "10.00 - 18.00",
+            "Fredag": "10.00 - 18.00",
+            "Lördag": "10.00 - 18.00",
+            "Söndag": "10.00 - 18.00",
+            "Öppettiderna kan variera baserat på säsong":"Se webbplats"
+          },
+          "pris": {
+            "Priser V": "Vuxna: 80kr",
+            "Priser U": "Barn/Ungdom (3-17): 40kr"
+          }
+      },
+      {
+          "kalmar_id": "716",
+          "opening_hours": {
+            "Öppettider": "Fågelvik är privatägt och är därmed inte tillgänglig för allmänheten"
+          }
+      },
+      {
+          "kalmar_id": "731",
+          "opening_hours": {
+            "Öppettider": "Se webbplats"
+          }
+      },
+      {
+          "kalmar_id": "732",
+          "opening_hours": {
+            "Öppettider": "Se webbplats"
+          }
+      },
+      {
+          "kalmar_id": "733",
+          "opening_hours": {
+            "Måndag": "Stängt",
+            "Tisdag": "12.00 - 18.00",
+            "Onsdag": "12.00 - 18.00",
+            "Torsdag": "12.00 - 18.00",
+            "Fredag": "12.00 - 18.00",
+            "Lördag": "12.00 - 18.00",
+            "Söndag": "12.00 - 18.00"
+          }
+      },
+      {
+          "kalmar_id": "734",
+          "opening_hours": {
+            "Måndag": "Stängt"
+          }
+      }
+  ]

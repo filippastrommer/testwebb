@@ -1,7 +1,13 @@
 [
     {"kronoberg_id": "433",
   "opening_hours":{
-    "Måndag - Fredag": "09.00 - 15.00"
+    "Måndag": "10:00 - 18:00",
+            "Tisdag": "10:00 - 18:00",
+            "Onsdag": "10:00 - 18:00",
+            "Torsdag": "10:00 - 18:00",
+            "Fredag": "10:00 - 18:00",
+            "Lördag": "10:00 - 18:00",
+            "Söndag": "10:00 - 18:00"
   },
           "pris": {
             "Priser V": "Vuxna: 60kr",
@@ -12,7 +18,13 @@
 
     {"kronoberg_id": "453",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "Stängt",
+            "Tisdag": "Stängt",
+            "Onsdag": "Stängt",
+            "Torsdag": "10:00 - 16:00",
+            "Fredag": "Stängt",
+            "Lördag": "Stängt",
+            "Söndag": "Stängt"
         },
                 "pris": {
                   "Priser V": "Vuxna: 80kr",
@@ -22,7 +34,13 @@
 
      {"kronoberg_id": "454",
               "opening_hours":{
-                "Måndag - Fredag": "09.00 - 15.00"
+                "Måndag": "Stängt",
+                "Tisdag": "10:00-17:00",
+                "Onsdag": "10:00 - 17:00",
+                "Torsdag": "10:00 - 17:00",
+                "Fredag": "10:00 - 17:00",
+                "Lördag": "11:00 - 16:00",
+                "Söndag": "11:00 - 16:00"
               },
                       "pris": {
                         "Priser V": "Vuxna: 150kr",
@@ -33,7 +51,13 @@
 
     {"kronoberg_id": "466",
             "opening_hours":{
-              "Måndag - Fredag": "09.00 - 15.00"
+              "Måndag": "Stängt",
+              "Tisdag": "Stängt",
+              "Onsdag": "10:00 - 16:00",
+              "Torsdag": "10:00 - 16:00",
+              "Fredag": "10:00 - 16:00",
+              "Lördag": "10:00 - 16:00",
+              "Söndag": "10:00 - 16:00"
              },
              "pris": {
             "Priser V": "Vuxna: 40kr",
@@ -44,7 +68,13 @@
                     
 {"kronoberg_id": "468",
 "opening_hours":{
-  "Måndag - Fredag": "09.00 - 15.00"
+             "Måndag": "Stängt",
+              "Tisdag": "10:00-17:00",
+              "Onsdag": "10:00 - 17:00",
+              "Torsdag": "10:00 - 17:00",
+              "Fredag": "10:00 - 17:00",
+              "Lördag": "11:00 - 16:00",
+              "Söndag": "11:00 - 16:00"
  },
  "pris": {
 "Priser": "Fri entré"
@@ -55,7 +85,13 @@
  
 {"kronoberg_id": "470",
 "opening_hours":{
-  "Måndag - Fredag": "09.00 - 15.00"
+  "Måndag": "Stängt",
+  "Tisdag": "Stängt",
+  "Onsdag": "09:00 - 12:00, 13:00 - 16:00",
+  "Torsdag": "Stängt",
+  "Fredag": "Stängt",
+  "Lördag": "Stängt",
+  "Söndag": "Stängt"
  },
  "pris": {
 "Priser": "Se webbplats för priser"
@@ -66,7 +102,7 @@
 
 {"kronoberg_id": "472",
             "opening_hours":{
-              "Måndag - Fredag": "09.00 - 15.00"
+              "Öppettider saknas":""
              },
              "pris": {
             "Priser": "Pris saknas"
@@ -76,7 +112,7 @@
 
         {"kronoberg_id": "474",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser": "Se webbplats för priser"
@@ -87,7 +123,7 @@
               
         {"kronoberg_id": "477",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "OBS": "Endast förbokade besök"
          },
          "pris": {
         "Priser": "Se webbplats för priser"
@@ -98,7 +134,7 @@
 
         {"kronoberg_id": "479",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser V": "Vuxna: 40kr",
@@ -112,7 +148,7 @@
 
         {"kronoberg_id": "480",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser": "Pris saknas"
@@ -123,7 +159,7 @@
 
         {"kronoberg_id": "481",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser": "Se webbplats för priser"
@@ -134,7 +170,13 @@
        
         {"kronoberg_id": "482",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "11:00 - 17:00",
+              "Tisdag": "11:00 - 17:00",
+              "Onsdag": "11:00 - 17:00",
+              "Torsdag": "11:00 - 17:00",
+              "Fredag": "11:00 - 17:00",
+              "Lördag": "11:00 - 17:00",
+              "Söndag": "11:00 - 17:00"
          },
          "pris": {
         "Priser": "Se webbplats för priser"
@@ -144,7 +186,10 @@
         },
         {"kronoberg_id": "484",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+         "Torsdag": "15:00 - 18:00",
+         "Lördag": "11:00 - 16:00",
+         "Söndag": "12:00 - 17:00"
+
          },
          "pris": {
         "Priser": "Fri entré"
@@ -155,7 +200,9 @@
        
         {"kronoberg_id": "485",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+             "Nästa vernissage:": "Lördagen den 12 Augusti 2023, 13 - 16",
+              "Utställningsperiod:": "12 Augusti - 28 Augusti",
+              "Öppet under utställningsperiod: ": "Lörd - Sönd kl. 13 - 16"
          },
          "pris": {
         "Priser": "Fri entré"
@@ -167,7 +214,13 @@
 
         {"kronoberg_id": "486",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "10:00 - 16:00",
+          "Tisdag": "10:00 - 16:00",
+          "Onsdag": "10:00 - 16:00",
+          "Torsdag": "10:00 - 16:00",
+          "Fredag": "10:00 - 16:00",
+          "Lördag": "11:00 - 16:00",
+          "Söndag": "12:00 - 16:00"
          },
          "pris": {
         "Priser": "Fri entré"
@@ -179,7 +232,7 @@
 
         {"kronoberg_id": "487",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser": "Fri entré"
@@ -190,7 +243,13 @@
 
         {"kronoberg_id": "516",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "Stängt",
+          "Tisdag": "12:00 - 18:00",
+          "Onsdag": "12:00 - 18:00",
+          "Torsdag": "12:00 - 18:00",
+          "Fredag": "12:00 - 18:00",
+          "Lördag": "12:00 - 16:00",
+          "Söndag": "Stängt"
          },
          "pris": {
         "Priser": "Fri entré"
@@ -201,7 +260,7 @@
 
         {"kronoberg_id": "517",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Öppettider saknas":""
          },
          "pris": {
         "Priser": "Pris saknas"
@@ -211,7 +270,7 @@
         },
         {"kronoberg_id": "518",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
          },
          "pris": {
         "Priser": "Pris saknas"
@@ -222,7 +281,7 @@
 
         {"kronoberg_id": "523",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Söndagar": "Efter midsommar öppnas våffelserveringen och håller öppet 14-17, övriga dagar är parken och stranden öppen att besöka."
          },
          "pris": {
         "Priser": "Se webbplats för priser"
@@ -233,7 +292,13 @@
 
         {"kronoberg_id": "524",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "Stängt",
+          "Tisdag": "12:00 - 16:00",
+          "Onsdag": "Stängt",
+          "Torsdag": "12:00 - 16:00",
+          "Fredag": "Stängt",
+          "Lördag": "Stängt",
+          "Söndag": "Stängt"
          },
          "pris": {
         "Priser": "Pris saknas"
@@ -244,7 +309,13 @@
 
         {"kronoberg_id": "525",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "Stängt",
+              "Tisdag": "12:00 - 17:00",
+              "Onsdag": "12:00 - 17:00",
+              "Torsdag": "12:00 - 17:00",
+              "Fredag": "12:00 - 17:00",
+              "Lördag": "12:00 - 16:00",
+              "Söndag": "12:00 - 16:00"
          },
          "pris": {
         "Priser": "Dagspass: 50kr-100kr",
@@ -256,7 +327,7 @@
 
         {"kronoberg_id": "526",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Kontakta oss för öppettider för utställningar":""
          },
          "pris": {
         "Priser": "Fri entré"
@@ -268,7 +339,13 @@
 
         {"kronoberg_id": "527",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Måndag": "08:00 - 17:00",
+              "Tisdag": "08:00 - 17:00",
+              "Onsdag": "08:00 - 17:00",
+              "Torsdag": "08:00 - 17:00",
+              "Fredag": "08:00 - 17:00",
+              "Lördag": "Stängt",
+              "Söndag": "Stängt"
          },
          "pris": {
         "Priser": "Fri entré"
@@ -280,7 +357,17 @@
 
         {"kronoberg_id": "528",
         "opening_hours":{
-          "Måndag - Fredag": "09.00 - 15.00"
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+        {"kronoberg_id": "618",
+        "opening_hours":{
+          "Måndag-Söndag": "09:00 - 18:00"
          },
          "pris": {
         "Priser": "Fri entré"
@@ -290,4 +377,405 @@
         },
 
 
-      
+        {"kronoberg_id": "619",
+        "opening_hours":{
+          "Måndag-Söndag": "Öppet dygnet runt"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+        {"kronoberg_id": "621",
+        "opening_hours":{
+          "Guidade Visningar: ": "Boka guidade visningar genom webbsidan", 
+          "Öppen Hytta (Bokas genom webbsidan): ": "Måndag-Torsdag: 10:00-15:30 (Lunch 10:45-11:30), Fredagar: 10:00-12:00, Lördag-Söndag: 11:00-16:00", 
+          "Butikens öppettider:": "Måndag-Fredag: 10:00 - 19:00, Lördag-Söndag: 10:00 - 18:00"
+         },
+         "pris": {
+        "Priser V": "Vuxna: 140kr",
+        "Priser U": "Barn 7-16år: 70kr",
+        "Priser B": "Barn upp till 7år: Gratis",
+        "Priser S": "Senior: 120kr",
+        "Priser Stud": "Studenter: 120kr"
+}
+        },
+
+        {"kronoberg_id": "627",
+        "opening_hours":{
+          "Måndag-Fredag": "09:00 - 17:00", 
+              "Lördag-Söndag": "10:00 - 16:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+       
+        {"kronoberg_id": "628",
+        "opening_hours":{
+          "Måndag-Söndag": "09:00 - 17:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+       
+
+        {"kronoberg_id": "632",
+        "opening_hours":{
+          "Måndag-Söndag": "11:00 - 17:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "633",
+        "opening_hours":{
+          "Permanent stängt": "Slottsruinen är permanent stängt för besök"
+         },
+         "pris": {
+        "Priser": "-"
+        
+        
+         }
+        },
+        {"kronoberg_id": "635",
+        "opening_hours":{
+          "Lördag-Söndag:": "08:00-19:00", 
+          "1/6 - 31/8:": "Öppet dagligen kl 08:00-19:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "636",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Pris beroende på evenemang, se webbplats"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "637",
+        "opening_hours":{
+          "Måndag-Söndag:": "08:00-18:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "638",
+        "opening_hours":{
+          "1/5 - 30/9:": "08:00-19:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "652",
+        "opening_hours":{
+          "Måndag-Söndag:": "08:00-19:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "686",
+        "opening_hours":{
+          "Öppen Kvarn :": "Se webbplatsen för kommande evenemang"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "687",
+        "opening_hours":{
+          "Se webbplatsen för program":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "688",
+        "opening_hours":{
+          "Öppet 24h":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "689",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "690",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "691",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "692",
+        "opening_hours":{
+          "Öppet 24h":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "693",
+        "opening_hours":{
+          "Öppet 24h":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "695",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Se webbplats för priser"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "715",
+        "opening_hours":{
+          "Måndag-Söndag:":"09:00-18:00"
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "719",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "720",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "721",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "722",
+        "opening_hours":{
+          "Måndag-Torsdag:":"11:30-14", 
+          "Fredag:": "11:30-14, 18:00-23:00", 
+          "Lördag:": "12:00-14:30", 
+          "Söndag:": "Stängt"
+         },
+         "pris": {
+        "Priser": "Pris saknas"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "724",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "725",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "726",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "727",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+        {"kronoberg_id": "728",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "729",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+
+        {"kronoberg_id": "730",
+        "opening_hours":{
+          "Se webbplats för öppettider":""
+         },
+         "pris": {
+        "Priser": "Fri entré"
+        
+        
+         }
+        },
+
+        {"kronoberg_id": "735",
+        "opening_hours":{
+          "Se webbplats för kurser och tider":""
+         },
+         "pris": {
+        "Priser": "Pris beroende på aktivitet, se webbplats"
+        
+        
+         }
+        }
+
+      ]
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

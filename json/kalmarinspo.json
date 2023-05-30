@@ -1,0 +1,26 @@
+[
+    {
+        "sectionId": "00",
+        "address":
+            "Slottsvägen",
+"zip_code": "392 33",
+"city": "Kalmar",
+"website": "https://www.kalmarkonstmuseum.se/"
+    },
+    {
+        "sectionId": "01",
+        "address":
+            "Södra Långgatan 5",
+"zip_code": "392 32",
+"city": "Kalmar",
+"website": "https://ernestokalmar.se"
+    },
+    {
+        "sectionId": "02",
+        "address":
+            "Södra Vägen 12",
+"zip_code": "392 33",
+"city": "Kalmar",
+"website": "https://www.filmstaden.se/biograf/NCG73682/saga-kalmar"
+    }
+]

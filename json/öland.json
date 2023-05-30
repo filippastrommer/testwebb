@@ -1,0 +1,205 @@
+[
+        {
+            "oland_id": "530",
+            "opening_hours": {
+                "Säsong 24 juni - ": "Onsdag - Söndag: 11.00 - 17.00",
+                "Övriga öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 40kr",
+              "Priser U": "Barn/Ungdom (0-15): 0kr"
+            }
+        },
+        {
+            "oland_id": "531",
+            "opening_hours": {
+                "Öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Se webbplats för pris"
+             
+            }
+        },
+        {
+            "oland_id": "532",
+            "opening_hours": {
+                "Säsong 1 maj - 31 maj": "Fredag - Söndag: 11.00 - 16.00",
+                "Säsong 1 juni - 23 juni": "Dagligen: 11.00 - 16.00",
+                "Säsong 24 juni - 13 augusti": "Dagligen: 10.00 - 17.00",
+                "Säsong 14 augusti - 31 augusti": "Dagligen: 11.00 - 16.00",
+                "Säsong 1 september - skördehelgen": "Fredag - Söndag: 11.00 - 16.00",
+                "Säsong 1 oktober - Allhelgona": "Helger: 11.00 - 16.00",
+                "Övriga öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 80kr",
+              "Priser B": "Barn (0-7): 0kr",
+              "Priser U": "Barn/Ungdom (7-15): 40kr",
+              "Priser ST": "Årskort: 200kr"
+            }
+        },
+        {
+            "oland_id": "533",
+            "opening_hours": {
+                "6-7 maj": "11.00 - 16.00",
+                "13-14 maj": "11.00 - 16.00",
+                "18-21 maj": "11.00 - 16.00",
+                "2-6 juni": "11.00 - 16.00",
+                "10-11 juni": "11.00 - 16.00",
+                "17-18 juni": "11.00 - 16.00",
+                "24 juni - 13 augusti": "Dagligen: 11.00 - 16.00",
+                "Övriga öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 100kr",
+              "Priser B": "Barn (0-6): 0kr",
+              "Priser U": "Barn/Ungdom (7-15): 50kr"
+            }
+        },
+        {
+            "oland_id": "534",
+            "opening_hours": {
+                "Säsong 10 april - 1 november": "Dagligen: 10.00 - 17.00"
+            },
+            "Priser": "Entré: 40kr",
+            "Priser V": "Kan vara ändrade priser beroende på aktuella event, vänligen se webbplats."
+        },
+        {
+            "oland_id": "535",
+            "opening_hours": {
+                "Säsong 28 juni - 28 augusti": "Tisdag, Torsdag & Söndag: 11.00-",
+                "Övriga öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 80kr",
+              "Priser U": "Barn/Ungdom (0-15): 0kr"
+            }
+        },
+        {
+            "oland_id": "536",
+            "opening_hours": {
+                "Öppettider": "Se webbplats"
+            
+        },
+        "pris": {
+          "Priser V": "Se webbplats för pris"
+          
+        }
+        },
+        {
+            "oland_id": "678",
+            "opening_hours": {
+                "Måndag": "11.00 - 16.00",
+                "Tisdag": "11.00 - 16.00",
+                "Onsdag": "11.00 - 16.00",
+                "Torsdag": "11.00 - 16.00",
+                "Fredag": "11.00 - 16.00",
+                "Lördag": "11.00 - 16.00",
+                "Söndag": "11.00 - 16.00",
+                "Öppettiderna kan variera baserat på säsong": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 50kr",
+              "Priser U": "Barn/Ungdom: 20kr"
+            }
+        },
+        {
+            "oland_id": "679",
+            "opening_hours": {
+                "Måndag": "Stängt",
+                "Tisdag": "Stängt",
+                "Onsdag": "Stängt",
+                "Torsdag": "Stängt",
+                "Fredag": "Stängt",
+                "Lördag": "11.00 - 16.00",
+                "Söndag": "11.00 - 16.00",
+                "Öppettiderna kan variera baserat på säsong": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Se webbplats för pris"
+             
+            }
+        },
+        {
+            "oland_id": "680",
+            "opening_hours": {
+              "Öppettider": "Se webbplats"
+            },
+            "pris": {
+              "Priser V": "Se webbplats för pris"
+              
+            }
+        },
+        {
+            "oland_id": "681",
+            "opening_hours": {
+              "Öppettider": "Se webbplats"
+            
+        },
+        "pris": {
+          "Priser V": "Se webbplats för pris"
+          
+        }
+        },
+        {
+            "oland_id": "682",
+            "opening_hours": {
+              "Öppettider": "Se webbplats"
+             },
+            "pris": {
+              "Priser V": "Se webbplats för pris"
+         
+            }
+        },
+        {
+            "oland_id": "683",
+            "opening_hours": {
+              "Måndag": "10.00 - 22.00",
+              "Tisdag": "10.00 - 22.00",
+              "Onsdag": "10.00 - 22.00",
+              "Torsdag": "10.00 - 22.00",
+              "Fredag": "10.00 - 22.00",
+              "Lördag": "10.00 - 22.00",
+              "Söndag": "10.00 - 22.00"
+            },
+        
+        "pris": {
+          "Priser V": "Se webbplats för pris"
+        }
+        
+        },
+        {
+            "oland_id": "684",
+            "opening_hours": {
+              "Måndag": "10.00 - 17.00",
+              "Tisdag": "10.00 - 17.00",
+              "Onsdag": "10.00 - 17.00",
+              "Torsdag": "10.00 - 17.00",
+              "Fredag": "10.00 - 17.00",
+              "Lördag": "10.00 - 17.00",
+              "Söndag": "10.00 - 17.00"
+            },
+            "pris": {
+              "Priser V": "Vuxna: 120kr",
+              "Priser Stud":"Studerande: 80kr",
+              "Priser U": "Ungdom (12-19): 80kr",
+              "Priser B":"Barn (0-6): 0kr, barn (7-11): 60kr"
+            }
+        },
+        {
+            "oland_id": "685",
+            "opening_hours": {
+              "Måndag": "Stängt",
+              "Tisdag": "Stängt",
+              "Onsdag": "Stängt",
+              "Torsdag": "11.00 - 16.00",
+              "Fredag": "11.00 - 16.00",
+              "Lördag": "11.00 - 16.00",
+              "Söndag": "Stängt"
+            },
+            "pris": {
+              "Priser V": "Se webbplats för pris"
+            
+            }
+        }
+    ]

@@ -1,0 +1,90 @@
+[
+    {
+        "sectionId": "19",
+        "address":
+            "Södra Järnvägsgatan 2",
+"zip_code": "352 29",
+"city": "Växjö",
+"website": "https://kulturparkensmaland.se/besok-oss/vara-besoksmal/smalands-museum-och-sveriges-glasmuseum/"
+    },
+    {
+        "sectionId": "20",
+        "address":
+            "Värendsgatan",
+"zip_code": "352 35",
+"city": "Växjö",
+"website": "https://www.vaxjo.se/sidor/se-och-gora/kultur-och-noje/konst-och-sevardheter/vaxjo-konsthall/offentlig-konst/konststrak/vaxjo-art-site.html"
+    },
+    {
+        "sectionId": "21",
+        "address":
+            "Västergatan 10",
+"zip_code": "352 31",
+"city": "Växjö",
+"website": "https://pmrestauranger.se/hotell/"
+    },
+    {
+        "sectionId": "22",
+        "address":
+            "Slottsallén",
+"zip_code": "351 96",
+"city": "Växjö",
+"website": "https://teleborgsslott.com/"
+    },
+    {
+        "sectionId": "23",
+        "address":
+            "Kungsgatan 6",
+"zip_code": "351 04",
+"city": "Växjö",
+"website": "https://elite.se/sv/hotell/vaxjo/stadshotellet/?gclid=EAIaIQobChMI8r6h0r6b_wIVqEKRBR0ItQWQEAAYASAAEgLe3_D_BwE"
+    },
+    {
+        "sectionId": "24",
+        "address":
+            "Asa 1",
+"zip_code": "363 94",
+"city": "Lammhult",
+"website": "https://www.asaherrgard.se/"
+    }, 
+    {
+        "sectionId": "25",
+        "address":
+            "LJ Brandts väg 3",
+"zip_code": "352 63",
+"city": "Växjö",
+"website": "https://evedalscamping.com/"
+    }, 
+    {
+        "sectionId": "26",
+        "address":
+            "Sandgärdsgatan 17–19",
+"zip_code": "352 30",
+"city": "Växjö",
+"website": "https://www.kafedeluxe.se/"
+    }, 
+    {
+        "sectionId": "27",
+        "address":
+            "Storgatan 82B",
+"zip_code": "352 46 ",
+"city": "Växjö",
+"website": "https://restaurangskai.se/"
+    }, 
+    {
+        "sectionId": "28",
+        "address":
+            "Nygatan",
+"zip_code": "352 31",
+"city": "Växjö",
+"website": "https://restauranggalai.se/"
+    }, 
+    {
+        "sectionId": "29",
+        "address":
+            "Västra Esplanaden 6",
+"zip_code": "352 31",
+"city": "Växjö",
+"website": "https://www.anviet.se/"
+    } 
+]

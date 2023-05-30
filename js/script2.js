@@ -7,18 +7,7 @@ function init() {
   }
   
   window.onload = init;
- /*
-  function scrollToTop() {
-    let scrollToTopButton = document.getElementById("scrollToTopButton");
-   
-     scrollToTopButton.addEventListener("click", function() {
-       window.scrollTo({
-         top: 0,
-         behavior: "smooth"
-       });
-     });
-}
-*/
+ 
 
 
 function scrollToTop() {
@@ -39,7 +28,10 @@ function scrollToTop() {
 
 
 function scrollToDiv() {
-    document.getElementById("attractionMenu").scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("description").scrollIntoView({ behavior: 'smooth' });
   }
   
+
+
+
 
