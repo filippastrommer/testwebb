@@ -1,120 +1,127 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style2.css">
-    <script src="js/script.js"></script>
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upplev kulturen på Småland & Öland</title>
+  <link rel="stylesheet" href="/css/style2.css">
+  <script src="js/script.js"></script>
+  <script src="js/menu.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-   <section>
-        <nav>
-          <a href="/index.html"><img src="/img/loggakultur2.png" alt="logga"></a>
-          <div id="header">
-              <ul>
-                  <li><a href="index.html">START</a></li>
-                  <li><a href="turer.html">INSPIRATION</a></li>
-                  <li><a href="kronoberg2.html">KRONOBERG</a></li>
-                  <li><a href="kalmar.html">KALMAR</a></li>
-                  <li><a href="jönköping.html">JÖNKÖPING</a></li>
-                  <li><a href="öland.html">ÖLAND</a></li>
-                 
-              </ul>
-          </div>
-      </nav>
-      </section>
 
-    <section class="video">
+  <nav>
+    <a href="/index.html" id="logoLink"><img src="/img/loggakultur2.png" alt="logga" id="logoImage"></a>
+
+  </nav>
+  <div class="navbar" id="myNavbar">
+    <a href="#" class="icon" onclick="toggleMenu()">
+      &#9776;
+    </a>
+    <a href="/index.html">START</a>
+    <a href="/turer.html">INSPIRATION</a>
+    <a href="/kronoberg2.html">KRONOBERG</a>
+    <a href="/kalmar.html">KALMAR</a>
+    <a href="/jonkoping.html">JÖNKÖPING</a>
+    <a href="/oland.html">ÖLAND</a>
+
+  </div>
+
+
+
+  <section class="video">
     <video autoplay muted loop id="myVideo">
-        <source src="/videos/travel.mp4" type="video/mp4">
-      </video>
-      <div id="overlay">
-        <h1>Upplev kulturen på</h1>
-        <h2>Småland&Öland</h2>
-        <div class="buttons">
-        <button id="scrollBtn1" class="button">Kronoberg</button>
-        <button id="scrollBtn2" class="button">Kalmar</button>
-        <button id="scrollBtn3" class="button">Jönköping</button>
-        <button id="scrollBtn4" class="button">Öland</button>
-    </div></div>
-    </section>
+      <source src="/videos/travel.mp4" type="video/mp4">
+    </video>
+    <div id="overlay">
+      <h1>Upplev kulturen på</h1>
+      <h2>Småland&Öland</h2>
 
-    <img id="scrollToTopButton" onclick="scrollToTop()" src="/img/unnamed.png" alt="pil">
-    
-    <section class="content">
-      <div class="text-container">
-          <h3>Kronoberg</h3>
-          <p>Kronoberg är en plats som bjuder på en mängd fantastiska sevärdheter och upplevelser för besökare. Här finns allt från vackra sjöar och skogar till historiska byggnader och moderna konstgallerier. Imponeras av 1900-talets arkitektur på Teleborgsslott, betrakta de fantastiska utställningarna på IKEA-museet eller inspireras av samtida konst från både svenska och internationella konstnärer på galleri plan B.</p>
-          <div>
-              <button type="button" class="button" onclick="location.href='kronoberg2.html'">UPPTÄCK</button>
-          </div>
-      </div>
-      <div id="bildkronoberg" class="image-container">
-          <img src="img/house-g756f1d14c_1920.jpg" alt="kronoberg">
-      </div>
+      <button id="scrollBtn1" class="buttons">Kronoberg</button>
+      <button id="scrollBtn2" class="buttons">Kalmar</button>
+      <button id="scrollBtn3" class="buttons">Jönköping</button>
+      <button id="scrollBtn4" class="buttons">Öland</button>
+    </div>
   </section>
 
-    
+  <img id="scrollToTopButton" onclick="scrollToTop()" src="/img/unnamed.png" alt="pil">
 
-  
-
-      
-
-    <section class="content">
-      <div id="bildkalmar" class="image-container">
-        <img src="img/kalmarslott.jpg" alt="slott">
-      </div>
-      <div class="text-container">
-          <h4>Kalmar</h4>
-          <p>Kalmar är en av Sveriges äldsta och mest fascinerande städer, som bjuder på en mängd spännande sevärdheter och upplevelser för besökare. Den berömda Kalmar slottet är en av stadens huvudattraktioner och en imponerande byggnad som är väl värd ett besök. Med sin historia som sträcker sig tillbaka till 1100-talet, kan besökare utforska slottets många rum och upptäcka dess rika historia.
-
-              Förutom slottet finns det mycket annat att se och göra i Kalmar. Strosa längs stadens vackra gator och torg, besök det pittoreska Stortorget och beundra stadens fantastiska arkitektur. I Gamla Stan kan du utforska de smala gränderna och hitta de små butikerna och kaféerna som gömmer sig där.</p>
-              <div>
-                <div>
-                  <button type="button" class="button" onclick="location.href='kalmar.html'">UPPTÄCK</button>
-              </div>
-      </div>
-        </div>
-    </section>
-      
-     
   <section class="content">
-      <div class="text-container">
-        <h5>Jönköping</h5>
-        <p>Jönköping, staden med ett pulserande kultur- och nöjesliv samt en rik historia. Här finns sevärdheter för alla åldrar och intressen. Börja med att besöka den imponerande Rosenlunds Herrgård, som är en av de äldsta herrgårdarna i Sverige och idag fungerar som museum. Gå sedan vidare till Jönköpings Konstmuseum, där du kan uppleva spännande konstutställningar från både svenska och internationella konstnärer. För dig som gillar friluftsliv och natur är Vättern och dess omgivningar en fantastisk upplevelse.</p>
-        <div>
-          <button type="button" class="button" onclick="location.href='jönköping.html'">UPPTÄCK</button>
+    <div class="text-container">
+      <h3>Kronoberg</h3>
+      <p>Kronoberg är en plats som bjuder på en mängd fantastiska sevärdheter och upplevelser för besökare. Här finns allt från vackra sjöar och skogar till historiska byggnader och moderna konstgallerier. Imponeras av 1900-talets arkitektur på Teleborgsslott, betrakta de fantastiska utställningarna på IKEA-museet eller inspireras av samtida konst från både svenska och internationella konstnärer på galleri plan B.</p>
+      <div>
+        <button type="button" class="button" onclick="location.href='kronoberg2.html'">UPPTÄCK</button>
       </div>
-      </div>
-      <div id="bildjönköping" class="image-container">
-        <img src="img/museum.jpg" alt="museum">
-      </div>
-    </section>
+    </div>
+    <div id="bildkronoberg" class="image-container">
+      <img src="img/house-g756f1d14c_1920.jpg" alt="kronoberg">
+    </div>
+  </section>
 
-    <section class="content">
-      <div id="bildöland" class="image-container">
-        <img src="img/lighthouse-g402fc3fe5_1920.jpg" alt="öland">
+
+
+
+
+
+
+  <section class="content">
+    <div id="bildkalmar" class="image-container">
+      <img src="img/kalmarslott.jpg" alt="slott">
+    </div>
+    <div class="text-container">
+      <h4>Kalmar</h4>
+      <p>Kalmar är en av Sveriges äldsta och mest fascinerande städer, som bjuder på en mängd spännande sevärdheter och upplevelser för besökare. Den berömda Kalmar slottet är en av stadens huvudattraktioner och en imponerande byggnad som är väl värd ett besök. Med sin historia som sträcker sig tillbaka till 1100-talet, kan besökare utforska slottets många rum och upptäcka dess rika historia.
+
+        Förutom slottet finns det mycket annat att se och göra i Kalmar. Strosa längs stadens vackra gator och torg, besök det pittoreska Stortorget och beundra stadens fantastiska arkitektur. I Gamla Stan kan du utforska de smala gränderna och hitta de små butikerna och kaféerna som gömmer sig där.</p>
+      <div>
+        <div>
+          <button type="button" class="button" onclick="location.href='kalmar.html'">UPPTÄCK</button>
+        </div>
       </div>
-      <div class="text-container">
-          <h6>Öland</h6>
-          <p>Öland är ön där du ständigt kan uppleva historiens vingslag. Fornborgar, gravsättningar, odlingslandskap, bebyggelse och framförallt väderkvarnarna, som kanske är det mest karakteristiska kulturarvet som Öland kan erbjuda. Runt om på ön görs olika typer av historiska kulturarv tillgängliga genom mer eller mindre organiserade upplevelser. Om du siktat in dig på en semester med historiska och kulturella förtecken har du kommit rätt.</p>
-          <div>
-            <button type="button" class="button" onclick="location.href='öland.html'">UPPTÄCK</button>
-        </div>
-        </div>
-    </section>
+    </div>
+  </section>
+
+
+  <section class="content">
+    <div class="text-container">
+      <h5>Jönköping</h5>
+      <p>Jönköping, staden med ett pulserande kultur- och nöjesliv samt en rik historia. Här finns sevärdheter för alla åldrar och intressen. Börja med att besöka den imponerande Rosenlunds Herrgård, som är en av de äldsta herrgårdarna i Sverige och idag fungerar som museum. Gå sedan vidare till Jönköpings Konstmuseum, där du kan uppleva spännande konstutställningar från både svenska och internationella konstnärer. För dig som gillar friluftsliv och natur är Vättern och dess omgivningar en fantastisk upplevelse.</p>
+      <div>
+        <button type="button" class="button" onclick="location.href='jönköping.html'">UPPTÄCK</button>
+      </div>
+    </div>
+    <div id="bildjönköping" class="image-container">
+      <img src="img/museum.jpg" alt="museum">
+    </div>
+  </section>
+
+  <section class="content">
+    <div id="bildöland" class="image-container">
+      <img src="img/lighthouse-g402fc3fe5_1920.jpg" alt="öland">
+    </div>
+    <div class="text-container">
+      <h6>Öland</h6>
+      <p>Öland är ön där du ständigt kan uppleva historiens vingslag. Fornborgar, gravsättningar, odlingslandskap, bebyggelse och framförallt väderkvarnarna, som kanske är det mest karakteristiska kulturarvet som Öland kan erbjuda. Runt om på ön görs olika typer av historiska kulturarv tillgängliga genom mer eller mindre organiserade upplevelser. Om du siktat in dig på en semester med historiska och kulturella förtecken har du kommit rätt.</p>
+      <div>
+        <button type="button" class="button" onclick="location.href='öland.html'">UPPTÄCK</button>
+      </div>
+    </div>
+  </section>
 
 
 
 
 
 </body>
+
 </html>

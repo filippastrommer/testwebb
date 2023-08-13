@@ -1,115 +1,211 @@
-
-
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #e5e3df;
-}
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.552);
-    height: 20px;
+  background-color: #e5e3df;
 }
 
-nav img {
-    width: 200px;
-    margin-left: -85px;
+.navbar {
+  background-color: #e5e3df;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#logoImage {
+  width: 200px;
 }
 
 
-#header {
-    flex: 1;
-    text-align: right;
-   
+
+#logoLink {
+  margin-right: 20px;
 }
 
-#header ul li {
-    list-style: none;
-    margin: 30px;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
+.icon {
+  display: none;
+  cursor: pointer;
 }
 
-#header ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 14px;
+.icon {
+  display: none;
+  cursor: pointer;
 }
-#header ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #000000;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-#header ul li:hover::after {
-    width: 100%;
-}
-
 
 #resmål {
-    margin-top: -200px;
-   }
+  margin-top: -200px;
+}
 
 
- h2{
-    text-align: center;
-    font-size: 60px;
-    padding-top: 10px;
-    color: #222020;
-    font-family: cursive;
-    font-family: 'Poppins', sans-serif;
-   }
+h2 {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 10px;
+  color: #222020;
+  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
+}
 
-   .collage {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 260px;
-  }
-  
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 260px;
+}
+
+.image {
+  position: relative;
+  flex-basis: calc(50% - 10px);
+  margin: 5px;
+
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  filter: brightness(80%);
+}
+
+.overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  font-size: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.image:hover img {
+  filter: brightness(50%);
+}
+
+.image:hover .overlay2 {
+  opacity: 1;
+}
+
+
+/* ipad */
+
+@media (min-width: 768px) and (max-width: 1024px) {
   .image {
-    position: relative;
     flex-basis: calc(50% - 10px);
-    margin: 5px;
-  
   }
-  
-  .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: filter 0.3s ease;
-      filter: brightness(80%);
-  }
-  
+
   .overlay2 {
+    font-size: 40px;
+  }
+
+  .navbar a.icon {
+    display: none;
+  }
+
+  body {
+    background-color: #e2e2e2;
+  }
+
+}
+
+
+/* ipad 2 */
+@media (max-width: 800px) {
+  .image {
+    flex-basis: 100%;
+  }
+
+  .overlay2 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .navbar a.icon {
+    display: none;
+  }
+
+
+
+  body {
+    background-color: #e2e2e2;
+  }
+
+}
+
+/* iphone */
+@media (max-width: 767px) {
+  .image {
+    flex-basis: 100%;
+  }
+
+  .overlay2 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .navbar a:not(.icon) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive {
+
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     z-index: 2;
-    font-size: 50px;
-    color:white;
-    font-family: 'Poppins', sans-serif;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+
+
+
   }
-  
-  .image:hover img {
-    filter: brightness(50%); 
+
+  .navbar.responsive .icon {
+    display: block;
+
   }
-  
-  .image:hover .overlay2 {
-    opacity: 1;
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+
   }
+
+
+  body {
+    background-color: #e2e2e2;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar a.icon {
+    display: none;
+  }
+}

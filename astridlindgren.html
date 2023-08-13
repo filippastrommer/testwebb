@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styletips.css">
-    <script type="text/javascript" src="/js/inspiration.js"></script>
+    <link rel="stylesheet" href="/css/style5.css">
+    <script src="js/inspiration.js"></script>
+    <script src="js/menu.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -14,32 +15,31 @@
 </head>
 
 <body>
-    <section>
-        <nav>
-          <a href="/index.html"><img src="/img/loggakultur2.png" alt="logga"></a>
-          <div id="header">
-              <ul>
-                  <li><a href="index.html">START</a></li>
-                  <li><a href="turer.html">INSPIRATION</a></li>
-                  <li><a href="kronoberg2.html">KRONOBERG</a></li>
-                  <li><a href="kalmar.html">KALMAR</a></li>
-                  <li><a href="jönköping.html">JÖNKÖPING</a></li>
-                  <li><a href="öland.html">ÖLAND</a></li>
-                 
-              </ul>
-          </div>
-      </nav>
-      </section>
 
 
-    <section class="video">
-    <img id="headerbild" src="img/astrid-lindgrens-world-g3a222bfe0_1280.jpg" alt="astrid lindgren">
-      <div id="overlay">
-      
-        <h2>Astrid Lindgren</h2>
+    <nav>
+        <a href="/index.html" id="logoLink"><img src="/img/loggakultur2.png" alt="logga" id="logoImage"></a>
+
+    </nav>
+    <div class="navbar" id="myNavbar">
+        <a href="#" class="icon" onclick="toggleMenu()">
+            &#9776;
+        </a>
+        <a href="/index.html">START</a>
+        <a href="/turer.html">INSPIRATION</a>
+        <a href="/kronoberg2.html">KRONOBERG</a>
+        <a href="/kalmar.html">KALMAR</a>
+        <a href="/jonkoping.html">JÖNKÖPING</a>
+        <a href="/oland.html">ÖLAND</a>
+
+    </div>
+
+
+    <section id="headerAL">
+        <div class="overlay">
+            <h1>Astrid Lindgren</h1>
         </div>
     </section>
-
 
     <section class="emil" data-id="714">
         <div class="bild">
@@ -49,7 +49,7 @@
             <div class="textInfo">
                 <h1>Katthult - Emil i Lönneberga</h1>
 
-                <p>Emil i Lönneberga, skriven av Astrid Lindgren, har blivit en älskad och klassisk barnbokskaraktär. Katthult är en pittoresk by belägen i Småland, Sverige, och är mest känt för att vara den fiktiva platsen där Emil i Lönneberga växte upp. Gården i Katthult är omgiven av grönskande ängar och vackra åkrar. Där finns även byns kyrka och skola där Emil och de andra barnen går. Byborna i Katthult är vänliga och hjälpsamma, och trots Emils busigheter älskar de honom och ser genom fingrarna med hans eskapader.</p>
+                <p>Emil i Lönneberga är en älskar barnbokskaraktär som skrevs av Astrid Lindgren och utspelade sig i den lilla byn Katthult. Katthult ligger i Småland och är öppet för att besöka av allmänheten. I Katthult kan du också besöka byns kyrka och skola från Emil i Lönneberga. </p>
                 <div class="info">
 
                 </div>
@@ -66,7 +66,7 @@
         <div class="content">
             <div class="textInfo">
                 <h1>Bullerbyn - Alla vi barn i bullerbyn</h1>
-                <p>Bullerbyn är en idyllisk by belägen på den svenska landsbygden. Med sin charmiga atmosfär och pittoreska omgivningar lockar Bullerbyn besökare från när och fjärran. Bygden är känd för sina vackra röda stugor, omgivna av frodiga ängar och gröna skogar. Som besökare i Bullerbyn kan man uppleva den genuina landsbygdskulturen genom att delta i traditionella aktiviteter och evenemang. Byborna är gästvänliga och välkomnar alla med öppna armar. Man kan prova på att mjölka kor, plocka bär eller bara njuta av en picknick vid den glittrande sjön. Och på kvällarna samlas alla kring brasan för att lyssna till historier och sjunga sånger.</p>
+                <p>I den fiktiva barnboken Alla vi barn i Bullerbyn bor de i denna charmiga by, med en vacker natur runtom. Hit kan du som besökare gå runt och kolla på de fina röda husen och området som är väl igenkänt från filmen. Denna upplevelse kommer ta dig tillbaka till din barndom och är ett mysigt ställe att visa upp för sina egna barn. </p>
                 <div class="info">
 
                 </div>
@@ -85,7 +85,7 @@
             <div class="textInfo">
                 <h1>Astrid Lindgrens Värld</h1>
 
-                <p>Astrid Lindgrens Värld är en magisk plats som tar besökare på en resa in i Astrid Lindgrens sagovärld. Beläget i Vimmerby, Sverige, är detta temaparken dedikerad till att hedra och fira författarinnan Astrid Lindgrens verk och karaktärer. <br> <br> Parken är uppdelad i olika delar som återskapar kända platser från böckerna. Man kan till exempel besöka Villa Villekulla, Pippis färgstarka och lekfulla hus, där barn kan utforska och upptäcka Pippis värld full av äventyr. I Katthult kan man träffa Emil och hans familj, och uppleva det lantliga livet i Lönneberga. I Mattisborgen kan besökare klättra och leka som Ronja Rövardotter i hennes vilda skog.</p>
+                <p>För dig som tycker om Astrid Lindgrens alla filmer så är Astrid Lindgrens värld ett givet besök för dig. Astrid Lindgrens värld är som en sagovärld där du får uppleva alla filmer och karaktärer. Temaparken ligger i Vimmerby och är uppdelade i olika områden där varje område speglar kända platser från böckerna och filmerna. Denna temapark är perfekt för barnfamiljer men många hus och platser att besöka.</p>
                 <div class="info">
 
                 </div>
@@ -110,17 +110,17 @@
 
         </div>
 
-    </section>
+
 
     </section>
-   
+
     <section id="valda-sektioner">
         <h2>Reseplanering</h2>
         <hr>
         <ul id="sektioner-lista">
+            <!-- Här läggs de valda sektionerna till -->
         </ul>
-      </section>
-
+    </section>
 </body>
 
 </html>

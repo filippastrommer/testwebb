@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/css/styleTurer.css">
+    <script src="js/menu.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -13,85 +15,85 @@
 </head>
 
 <body>
-    <section>
-        <nav>
-          <a href="/index.html"><img src="/img/loggakultur2.png" alt="logga"></a>
-          <div id="header">
-              <ul>
-                  <li><a href="index.html">START</a></li>
-                  <li><a href="turer.html">INSPIRATION</a></li>
-                  <li><a href="kronoberg2.html">KRONOBERG</a></li>
-                  <li><a href="kalmar.html">KALMAR</a></li>
-                  <li><a href="jönköping.html">JÖNKÖPING</a></li>
-                  <li><a href="öland.html">ÖLAND</a></li>
-                 
-              </ul>
-          </div>
-      </nav>
-      </section>
+    <nav>
+        <a href="/index.html" id="logoLink"><img src="/img/loggakultur2.png" alt="logga" id="logoImage"></a>
+
+    </nav>
+    <div class="navbar" id="myNavbar">
+        <a href="#" class="icon" onclick="toggleMenu()">
+            &#9776;
+        </a>
+        <a href="/index.html">START</a>
+        <a href="/turer.html">INSPIRATION</a>
+        <a href="/kronoberg2.html">KRONOBERG</a>
+        <a href="/kalmar.html">KALMAR</a>
+        <a href="/jonkoping.html">JÖNKÖPING</a>
+        <a href="/oland.html">ÖLAND</a>
+
+    </div>
 
 
     <div>
-            <h2>Upptäck populära platser i Småland & Öland</h2>
-            <p></p>
-        
-  </div>
+        <h2>Upptäck populära platser i Småland & Öland</h2>
+        <p></p>
+
+    </div>
     <section id="resmål">
-        
+
         <div class="collage">
 
-           
+
             <div class="image">
                 <a href="/astridlindgren.html">
-                    <img src="/img/astrid-lindgrens-world-g3a222bfe0_1280.jpg">
-                    <div class="overlay2" >
+                    <img src="/img/astrid-lindgrens-world-g3a222bfe0_1280.jpg" alt="astrid">
+                    <div class="overlay2">
                         <h1>Astrid Lindgren</h1>
                     </div>
-                      
-    
+
+
                 </a>
             </div>
             <div class="image">
                 <a href="/kalmartur.html">
-                <img src="/img/sweden-ge443d3a57_640.jpg">
-                <div class="overlay2" >
-                    <h1>Kulturen i Kalmar</h1>
-                </div>
-               
-            </a>
+                    <img src="/img/sweden-ge443d3a57_640.jpg" alt="sweden">
+                    <div class="overlay2">
+                        <h1>Kulturen i Kalmar</h1>
+                    </div>
+
+                </a>
             </div>
             <div class="image">
                 <a href="/glasriket.html">
-                <img src="/img/glass-g0acbdd374_640.jpg">
-                <div class="overlay2" >
-                    <h1> Glasriket Småland</h1>
-                </div>
-            </a>
+                    <img src="/img/glass-g0acbdd374_640.jpg" alt="glas">
+                    <div class="overlay2">
+                        <h1> Glasriket Småland</h1>
+                    </div>
+                </a>
             </div>
             <div class="image">
-                <a href="/växjö.html">
-                <img src="/img/window-g9fa39ea6b_1920.jpg">
-                <div class="overlay2" >
-                    <h1>Kulturen i Växjö</h1>
-                </div>
-               
-            </a>
+                <a href="/vaxjo.html">
+                    <img src="/img/window-g9fa39ea6b_1920.jpg" alt="window">
+                    <div class="overlay2">
+                        <h1>Kulturen i Växjö</h1>
+                    </div>
+
+                </a>
             </div>
             <div class="image">
-                <a href="/jönköpingskultur.html">
-                <img src="/img/abbilyn-rurenko-AajDZ559A-Y-unsplash.jpg">
-                <div class="overlay2" >
-                    <h1>Kulturen i Jönköping</h1>
-                </div>
-            </a>
+                <a href="/jonkopingskultur.html">
+                    <img src="/img/abbilyn-rurenko-AajDZ559A-Y-unsplash.jpg" alt="jonkoping">
+                    <div class="overlay2">
+                        <h1>Kulturen i Jönköping</h1>
+                    </div>
+                </a>
             </div>
             <div class="image">
-                <a href="/ölandkult.html">
-                <img src="/img/oscar-nord-KgaN-W7ai5Y-unsplash.jpg">
-                <div class="overlay2" >
-                    <h1>Kulturen i Öland</h1>
-                </div>
-            </a>
+                <a href="/olandkult.html">
+                    <img src="/img/oscar-nord-KgaN-W7ai5Y-unsplash.jpg" alt="oscarnord">
+                    <div class="overlay2">
+                        <h1>Kulturen i Öland</h1>
+                    </div>
+                </a>
             </div>
         </div>
     </section>

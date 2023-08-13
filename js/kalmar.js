@@ -9,7 +9,7 @@ var markers = [];
 var map;
 
 function init() {
-//Funktion för vad som laddas in direkt när webbsidan öppnas.
+  //Funktion för vad som laddas in direkt när webbsidan öppnas.
   listalista = document.getElementById("lista");
   document.getElementById("description");
   document.getElementById("Museum").addEventListener("click", requestData);
@@ -25,7 +25,7 @@ window.addEventListener("load", init)
 function initMap() {
   var mapDiv = document.getElementById("map");
   map = new google.maps.Map(mapDiv, {
-    center: { itemLat, itemLng },
+    center: itemLat, itemLng,
     zoom: 11
   });
 }
@@ -66,7 +66,7 @@ function requestData2() {
   };
 }
 
- //Funktion för begära datahämtningen av kyrkor från SMAPI i Kalmar, och samtidigt koppla Google maps till förfrågningen av datan.
+//Funktion för begära datahämtningen av kyrkor från SMAPI i Kalmar, och samtidigt koppla Google maps till förfrågningen av datan.
 function requestData3() {
   let request3 = new XMLHttpRequest();
   request3.open("GET", "https://smapi.lnu.se/api/?api_key=" + APIkey + "&debug=true&controller=establishment&method=getAll&descriptions=kyrka&counties=kalmar län");
@@ -84,7 +84,7 @@ function requestData3() {
   };
 }
 
- //Funktion för begära datahämtningen av sevärdheter från SMAPI i Kalmar, och samtidigt koppla Google maps till förfrågningen av datan.
+//Funktion för begära datahämtningen av sevärdheter från SMAPI i Kalmar, och samtidigt koppla Google maps till förfrågningen av datan.
 function requestData4() {
   let request4 = new XMLHttpRequest();
   request4.open("GET", "https://smapi.lnu.se/api/?api_key=" + APIkey + "&debug=true&controller=establishment&method=getAll&descriptions=sevärdhet&counties=kalmar län");
@@ -129,7 +129,7 @@ function getData(items) {
   listalista.innerHTML = "";   // Kod för att elementen ska vara tomma innan datan efterfrågats, och om data existerar i elementen ska den tömmas vid ny förfrågan av data.
   markers = []; //Tom array för markering på kartan för att det ska vara tomt innan en specifik begäran av attraktion.
 
-   // En loop för att mappen ska vara gömd och tom innan specifik data-begäran görs, för att den ska endast visas om en förfrågan skett och isåfall visas centrerad baserad på attrakrionens position och för att därmed markera ut placeringen på kartan. Detta med koordinater från SMAPI.
+  // En loop för att mappen ska vara gömd och tom innan specifik data-begäran görs, för att den ska endast visas om en förfrågan skett och isåfall visas centrerad baserad på attrakrionens position och för att därmed markera ut placeringen på kartan. Detta med koordinater från SMAPI.
   //För en underlättning av kodningen har payloaden från SMAPI kallats för item.
   for (var i = 0; i < items.length; i++) {
     document.getElementById("map").classList.add("hidden");
@@ -193,8 +193,8 @@ function showMarker(item) {
   });
 
   if (marker) {
-    marker.setVisible(true); 
-    map.setCenter(marker.getPosition()); 
+    marker.setVisible(true);
+    map.setCenter(marker.getPosition());
   }
 }
 
@@ -206,8 +206,8 @@ function showAttractionDetails(item) {
   listatext.innerHTML = "";  // Tömning av listan innan en ny utskrift.
 
   var attractionName = "<h2>" + item.name + "</h2>";
-  var addressText = "<div id=\"adress\"><li id=\"adressicon\"><span class=\"icon\"><img src=\"img/iconplace.svg\"></span><span class=\"address\">" + item.address + "</span></li></div>" + 
-  item.zip_code + ", " + item.city + "</p>";
+  var addressText = "<div id=\"adress\"><li id=\"adressicon\"><span class=\"icon\"><img src=\"img/iconplace.svg\"></span><span class=\"address\">" + item.address + "</span></li></div>" +
+    item.zip_code + ", " + item.city + "</p>";
   var phoneText = "<div id=\"telefonnummer\"><li id=\"adressicon\"><span class=\"icon\"><img src=\"img/iconphone.svg\"></span><span class=\"address\">" + item.phone_number + "</span></li></div>";
   var openingHoursText = "<div id=\"open\"><p><li id=\"adressicon\"><span class=\"icon\"><img src=\"img/icontime.svg\"></span><span class=\"address\"></span>";
   var pricesText = "<div id=\"pris\"><p><li id=\"adressicon\"><span class=\"icon\"><img src=\"img/iconprice.svg\"></span><span class=\"address\"></span>";
@@ -218,10 +218,10 @@ function showAttractionDetails(item) {
   var request = new XMLHttpRequest();
   request.open("GET", "json/kalmar.json");
   request.send(null);
-  request.onreadystatechange = function() {
+  request.onreadystatechange = function () {
     if (request.readyState == 4 && request.status == 200) {
       var kalmarData = JSON.parse(request.responseText);
-      var selectedMuseum = kalmarData.find(function(kalmar) {
+      var selectedMuseum = kalmarData.find(function (kalmar) {
         return kalmar.kalmar_id === item.id;
       });
 

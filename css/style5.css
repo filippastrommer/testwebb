@@ -1,0 +1,489 @@
+body {
+
+    background-color: #e5e3df;
+}
+
+#logoImage {
+    width: 200px;
+}
+
+
+
+#logoLink {
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: #e5e3df;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+
+
+.icon {
+    display: none;
+    cursor: pointer;
+}
+
+.icon {
+    display: none;
+    cursor: pointer;
+}
+
+#headerAL {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/astrid-lindgrens-world-g3a222bfe0_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.overlay h1 {
+    font-size: 116px;
+    color: #020202c5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.emil {
+    background-color: #d8d0ca50;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+    padding: 2px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.textInfo {
+    order: -1;
+}
+
+
+
+.emil:hover:not(.emil-klon) {
+
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #c2beba4d;
+}
+
+.bild {
+    padding: 1%;
+    flex: 0 0 auto;
+}
+
+
+
+
+#katthult h1 {
+    font-size: 25px;
+}
+
+#katthult p {
+    font-size: 17px;
+    margin-top: -3%;
+}
+
+#info {
+    margin-top: 2%;
+}
+
+
+#headerKM {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/20210820humlesolkssommar0066-2000x640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+#ernesto {
+    height: 600px;
+}
+
+#headerGL {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/glass-gb5056f140_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+#headerCVL {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/stolar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+#headerJK {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/abbilyn-rurenko-AajDZ559A-Y-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+#headerÖL {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(/img/oscar-nord-KgaN-W7ai5Y-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-area: header;
+}
+
+section {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 1%;
+}
+
+#valda-sektioner {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+#valda-sektioner h2 {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+
+
+#valda-sektioner hr {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+.valj-knapp {
+    background-color: #f3f0ee;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border: #000000;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.592);
+    cursor: pointer;
+    width: 210px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.valj-knapp:hover {
+    background-color: #86838177;
+}
+
+button.ta-bort-knapp {
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-image: url('/img/kryss.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+
+.emil-klon {
+    transform: scale(0.8);
+
+}
+
+.emil-klon img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+
+#aktivitet {
+    font-family: 'Poppins', sans-serif;
+}
+
+#aktivitet p {
+    font-size: 20px;
+    margin-top: -2%;
+}
+
+#aktivitet h2 {
+    font-size: 30px;
+}
+
+#boende {
+    font-family: 'Poppins', sans-serif;
+}
+
+#boende p {
+    font-size: 20px;
+    margin-top: -2%;
+}
+
+#boende h2 {
+    font-size: 30px;
+}
+
+#mat {
+    font-family: 'Poppins', sans-serif;
+}
+
+#mat h2 {
+    font-size: 30px;
+}
+
+#mat p {
+    font-size: 20px;
+    margin-top: -2%;
+}
+
+.bild {
+    padding: 1%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bild img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .navbar a.icon {
+        display: none;
+    }
+}
+
+
+/* ipad media query */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        background-color: #e2e2e2;
+    }
+
+    .overlay h1 {
+        font-size: 72px;
+    }
+
+    .navbar a.icon {
+        display: none;
+    }
+
+
+    .emil {
+        grid-template-columns: 1fr;
+    }
+
+
+    .bild {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bild img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    #logga {
+        width: 350px;
+        margin-top: 65px;
+    }
+
+    #headerGL {
+        min-height: 50vh;
+    }
+
+    #headerCVL {
+        min-height: 50vh;
+    }
+
+    #headerJK {
+        min-height: 50vh;
+    }
+
+    #headerÖL {
+        min-height: 50vh;
+    }
+
+    #headerAL {
+        min-height: 50vh;
+    }
+
+    #headerKM {
+        min-height: 50vh;
+    }
+}
+
+
+
+
+/* iphone media query */
+@media only screen and (max-width: 767px) {
+
+    body {
+        background-color: #e2e2e2;
+    }
+
+    .navbar a:not(.icon) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+
+
+
+    }
+
+    .navbar.responsive .icon {
+        display: block;
+
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+
+    }
+
+
+
+    .overlay h1 {
+        font-size: 48px;
+    }
+
+
+
+    .emil {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .bild img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #logga {
+        width: 250px;
+        margin-top: 45px;
+    }
+
+    #headerGL {
+        min-height: 50vh;
+    }
+
+    #headerCVL {
+        min-height: 50vh;
+    }
+
+    #headerJK {
+        min-height: 50vh;
+    }
+
+    #headerÖL {
+        min-height: 50vh;
+    }
+
+    #headerAL {
+        min-height: 50vh;
+    }
+
+    #headerKM {
+        min-height: 50vh;
+    }
+}

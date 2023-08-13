@@ -1,6 +1,6 @@
 [
     {
-      "jönköping_id": "449",
+      "jkp_id": "449",
       "opening_hours": {
         "Oktober-April": 
         "Måndag-Fredag: 10:00-15:00, Lördag-Söndag: 12:00-16:00",
@@ -21,7 +21,7 @@
       
       },
     {
-      "jönköping_id": "451",
+      "jkp_id": "451",
       "opening_hours": {
         "September-Juni": 
         "Måndag-Söndag: 11:00-17:00",
@@ -41,7 +41,7 @@
    
 
     {
-         "jönköping_id": "457",
+         "jkp_id": "457",
         "opening_hours": {
             "10e Juni-Augusti": 
             "Måndag-Fredag: 10:00-17:00, Lördag-Söndag: 10:00-15:00",
@@ -58,7 +58,7 @@
     
 
     {
-        "jönköping_id": "460",
+        "jkp_id": "460",
        "opening_hours": {
         "Måndag": "Stängt",
         "Tisdag": "10:00-19:00",
@@ -77,7 +77,7 @@
    },
 
    {
-    "jönköping_id": "462",
+    "jkp_id": "462",
    "opening_hours": {
     "Måndag": "10:00-16:00",
     "Tisdag": "10:00-16:00",
@@ -100,7 +100,7 @@
 },
 
 {
-    "jönköping_id": "519",
+    "jkp_id": "519",
    "opening_hours": {
     "Se webbplats för öppettider":""
    
@@ -112,7 +112,7 @@
 },
 
 {
-    "jönköping_id": "520",
+    "jkp_id": "520",
    "opening_hours": {
     "Tisdag": "13:00-18:00, Övriga dagar: Enligt överenskommelse"
    
@@ -126,7 +126,7 @@
 },
 
 {
-    "jönköping_id": "521",
+    "jkp_id": "521",
    "opening_hours": {
     "21a Januari-29e April": 
         "Lördag: 11:00-15:00",
@@ -155,7 +155,7 @@
 
 
 {
-    "jönköping_id": "522",
+    "jkp_id": "522",
    "opening_hours": {
     "Måndag": "Stängt",
     "Tisdag": "10:00-19:00",
@@ -174,7 +174,7 @@
 },
 
 {
-    "jönköping_id": "537",
+    "jkp_id": "537",
    "opening_hours": {
     "Måndag": "13:00-16:30",
     "Tisdag": "13:00-16:30",
@@ -194,7 +194,7 @@
 },
 
 {
-    "jönköping_id": "538",
+    "jkp_id": "538",
    "opening_hours": {
     "Se webbplats för öppettider":""
 
@@ -209,7 +209,7 @@
 },
 
 {
-    "jönköping_id": "539",
+    "jkp_id": "539",
    "opening_hours": {
     "Måndag": "13:00-16:00",
     "Tisdag": "13:00-16:00",
@@ -229,7 +229,7 @@
 },
 
 {
-    "jönköping_id": "540",
+    "jkp_id": "540",
    "opening_hours": {
     "Kontakta oss för att boka guidning":""
 
@@ -242,7 +242,7 @@
 },
  
 {
-    "jönköping_id": "640",
+    "jkp_id": "640",
    "opening_hours": {
     "1a Oktober-30e April": 
         "Måndag-Fredag: 09:00-16:00",
@@ -257,7 +257,7 @@
 },
 
 {
-    "jönköping_id": "641",
+    "jkp_id": "641",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -271,7 +271,7 @@
 },
 
 {
-    "jönköping_id": "642",
+    "jkp_id": "642",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -285,7 +285,7 @@
 },
 
 {
-    "jönköping_id": "643",
+    "jkp_id": "643",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -299,7 +299,7 @@
 },
 
 {
-    "jönköping_id": "644",
+    "jkp_id": "644",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -313,50 +313,7 @@
 },
 
 {
-    "jönköping_id": "645",
-   "opening_hours": {
-    "Se webbplats för öppettider":""
-       
-   },
-   "pris": {
-    "Priser": "Fri entré"
-   }
-
-
-
-},
-
-
-{
-    "jönköping_id": "646",
-   "opening_hours": {
-    "Se webbplats för öppettider":""
-       
-   },
-   "pris": {
-    "Priser": "Fri entré"
-   }
-
-
-
-},
-
-{
-    "jönköping_id": "647",
-   "opening_hours": {
-    "Se webbplats för öppettider":""
-       
-   },
-   "pris": {
-    "Priser": "Fri entré"
-   }
-
-
-
-},
-
-{
-    "jönköping_id": "648",
+    "jkp_id": "645",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -371,7 +328,35 @@
 
 
 {
-    "jönköping_id": "649",
+    "jkp_id": "646",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jkp_id": "647",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+{
+    "jkp_id": "648",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -386,7 +371,22 @@
 
 
 {
-    "jönköping_id": "650",
+    "jkp_id": "649",
+   "opening_hours": {
+    "Se webbplats för öppettider":""
+       
+   },
+   "pris": {
+    "Priser": "Fri entré"
+   }
+
+
+
+},
+
+
+{
+    "jkp_id": "650",
    "opening_hours": {
     "Se webbplats för öppettider":""
        
@@ -403,7 +403,7 @@
 
 
 {
-    "jönköping_id": "660",
+    "jkp_id": "660",
    "opening_hours": {
     "Öppet 24h":""
    },
@@ -417,7 +417,7 @@
 },
 
 {
-    "jönköping_id": "674",
+    "jkp_id": "674",
    "opening_hours": {
     "Måndag": "07:30-18:00",
     "Tisdag": "07:30-19:30",
@@ -436,7 +436,7 @@
 
 },
 {
-    "jönköping_id": "675",
+    "jkp_id": "675",
    "opening_hours": {
     "Öppet 24h":""
    },
@@ -449,7 +449,7 @@
 },
 
 {
-    "jönköping_id": "676",
+    "jkp_id": "676",
    "opening_hours": {
     "Öppet 24h":""
    },
@@ -462,7 +462,7 @@
 },
 
 {
-    "jönköping_id": "677",
+    "jkp_id": "677",
    "opening_hours": {
     "1a Maj-30e Juni": "Fredag-Söndag: 11:00-15:00"
    },
@@ -475,7 +475,7 @@
 },
 
 {
-    "jönköping_id": "697",
+    "jkp_id": "697",
    "opening_hours": {
     "20e juni-20e augusti": "Dagliga visningar klockan 11 (engelska) och klockan 13 (svenska)"
    },
@@ -492,7 +492,7 @@
 
 
 {
-    "jönköping_id": "712",
+    "jkp_id": "712",
    "opening_hours": {
     "Café Sörgården": "11e Juni-30e Juni: 11:00-17:00, 1a Juli-13e Augusti: 10:00-18:00, 14e Augusti-27e Augusti: 11:00-17:00",
     "Smedjestugan": "Bokning genom Airbnb eller direkt cafe@astridsbullerbyn.se, 070-7646724"
@@ -506,7 +506,7 @@
 },
 
 {
-    "jönköping_id": "717",
+    "jkp_id": "717",
    "opening_hours": {
     "Se webbplats för öppettider":""
    },
@@ -520,7 +520,7 @@
 },
 
 {
-    "jönköping_id": "718",
+    "jkp_id": "718",
    "opening_hours": {
     "Öppet 24h":""
    },
@@ -533,7 +533,7 @@
 },
 
 {
-    "jönköping_id": "723",
+    "jkp_id": "723",
    "opening_hours": {
     "Se webbplats för öppettider":""
    },

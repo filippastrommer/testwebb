@@ -135,7 +135,7 @@ function requestData4() {
 
           //Ajax anrop för att hämta data ur json för data som saknas i smapi
           let jsonRequest = new XMLHttpRequest();
-          jsonRequest.open("GET", "/json/jönköpinginspo.json", true);
+          jsonRequest.open("GET", "/json/jkpinspo.json", true);
           jsonRequest.onreadystatechange = function () {
             if (jsonRequest.readyState === 4 && jsonRequest.status === 200) {
               let jsonData = JSON.parse(jsonRequest.responseText);
@@ -212,7 +212,7 @@ function requestData6() {
           }
           //Ajax anrop för att hämta data ur json för data som saknas i smapi
           let jsonRequest = new XMLHttpRequest();
-          jsonRequest.open("GET", "/json/ölandinspo.json", true);
+          jsonRequest.open("GET", "/json/olandinspo.json", true);
           jsonRequest.onreadystatechange = function () {
             if (jsonRequest.readyState === 4 && jsonRequest.status === 200) {
               let jsonData = JSON.parse(jsonRequest.responseText);
@@ -251,7 +251,7 @@ function requestData7() {
 
           //Ajax anrop för att hämta data ur json för data som saknas i smapi
           let jsonRequest = new XMLHttpRequest();
-          jsonRequest.open("GET", "/json/växjöinspo.json", true);
+          jsonRequest.open("GET", "/json/vwoinspo.json", true);
           jsonRequest.onreadystatechange = function () {
             if (jsonRequest.readyState === 4 && jsonRequest.status === 200) {
               let jsonData = JSON.parse(jsonRequest.responseText);
@@ -272,40 +272,38 @@ function requestData7() {
   };
 }
 
+
+
+
 function visaData(data, sectionId) {
-  //hämtar alla element med klassen emil för att hämta de sektioner som datan ska skrivas i 
   let sectionElements = document.getElementsByClassName("emil");
   let aktivitet;
 
-  //loopar genom alla sektioner för att hitta det element som matchar med id i smapi och json
   for (let i = 0; i < sectionElements.length; i++) {
     let element = sectionElements[i];
     if (element.getAttribute("data-id") === sectionId) {
       aktivitet = element.querySelector(".info");
+      if (aktivitet) { // Kolla om aktivitet hittades
+        aktivitet.innerHTML = ""; // Tömmer elementet endast om aktivitet hittades
+        let info = "Besöksadress:\n" + data.address + "\n";
+        info += data.zip_code + "\n";
+        info += data.city + "\n";
+
+        let infoElement = document.createElement("p");
+        infoElement.innerText = info;
+        aktivitet.appendChild(infoElement);
+
+        let websiteButton = document.createElement("button");
+        websiteButton.classList.add("webbsidaknapp");
+        websiteButton.innerText = "Besök webbplatsen för mer information";
+        websiteButton.addEventListener("click", function () {
+          window.open(data.website, "_blank");
+        });
+        aktivitet.appendChild(websiteButton);
+      } else {
+        console.log("Kunde inte hitta .info-elementet för sectionId:", sectionId);
+      }
       break;
     }
   }
-
-  //tömmer elementet aktivitet där datan ska skrivas ut
-  aktivitet.innerHTML = "";
-
-
-  let info = "Besöksadress:\n" + data.address + "\n";
-  info += data.zip_code + "\n";
-  info += data.city + "\n";
-
-  let infoElement = document.createElement("p");
-  infoElement.innerText = info;
-  aktivitet.appendChild(infoElement);
-
-  //skapar en knapp för länken i json
-  let websiteButton = document.createElement("button");
-  websiteButton.classList.add("webbsidaknapp");
-  websiteButton.innerText = "Besök webbplatsen för mer information";
-  websiteButton.addEventListener("click", function () {
-    window.open(data.website, "_blank");
-  });
-  infoElement.appendChild(websiteButton);
-
 }
-
